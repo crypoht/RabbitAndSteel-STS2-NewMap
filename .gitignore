@@ -1,0 +1,9 @@
+# Godot 4+ specific ignores
+.godot/
+/android/
+
+# Local-only technical notes
+/docs-local/
+/LOCAL_TECH_NOTES.md
+/rabbit-and-steel-new-map.csproj
+/rabbit-and-steel-new-map.json

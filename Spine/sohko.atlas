@@ -1,0 +1,111 @@
+
+sohko.png
+size: 2028,966
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon_granite_01
+  rotate: false
+  xy: 1744, 25
+  size: 259, 342
+  orig: 261, 345
+  offset: 1, 1
+  index: -1
+dragon_granite_02
+  rotate: true
+  xy: 1424, 706
+  size: 258, 341
+  orig: 261, 343
+  offset: 2, 1
+  index: -1
+dragon_granite_03
+  rotate: false
+  xy: 1120, 297
+  size: 295, 326
+  orig: 297, 328
+  offset: 1, 1
+  index: -1
+dragon_granite_04
+  rotate: true
+  xy: 1160, 11
+  size: 284, 326
+  orig: 286, 328
+  offset: 1, 1
+  index: -1
+dragon_granite_05
+  rotate: false
+  xy: 794, 261
+  size: 324, 340
+  orig: 326, 342
+  offset: 1, 1
+  index: -1
+dragon_granite_06
+  rotate: false
+  xy: 1113, 625
+  size: 309, 339
+  orig: 311, 341
+  offset: 1, 1
+  index: -1
+dragon_granite_07
+  rotate: false
+  xy: 1782, 615
+  size: 244, 349
+  orig: 246, 351
+  offset: 1, 1
+  index: -1
+dragon_granite_08
+  rotate: true
+  xy: 794, 2
+  size: 257, 364
+  orig: 259, 366
+  offset: 1, 1
+  index: -1
+dragon_granite_09
+  rotate: true
+  xy: 1417, 369
+  size: 254, 363
+  orig: 256, 365
+  offset: 1, 1
+  index: -1
+dragon_granite_10
+  rotate: false
+  xy: 1488, 5
+  size: 254, 362
+  orig: 256, 364
+  offset: 1, 1
+  index: -1
+dragon_granite_11
+  rotate: false
+  xy: 430, 104
+  size: 362, 367
+  orig: 364, 369
+  offset: 1, 1
+  index: -1
+dragon_granite_12
+  rotate: true
+  xy: 465, 598
+  size: 366, 327
+  orig: 368, 329
+  offset: 1, 1
+  index: -1
+dragon_granite_13
+  rotate: true
+  xy: 794, 603
+  size: 361, 317
+  orig: 363, 319
+  offset: 1, 1
+  index: -1
+spr_focus_arrow_0
+  rotate: true
+  xy: 2, 473
+  size: 491, 461
+  orig: 502, 470
+  offset: 5, 1
+  index: -1
+spr_proj_whirlpool_0
+  rotate: false
+  xy: 2, 45
+  size: 426, 426
+  orig: 512, 512
+  offset: 43, 43
+  index: -1

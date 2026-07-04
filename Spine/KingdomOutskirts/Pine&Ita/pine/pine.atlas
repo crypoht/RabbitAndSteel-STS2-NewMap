@@ -1,0 +1,111 @@
+
+pine.png
+size: 2019,724
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mouse_cadet_01
+  rotate: false
+  xy: 1384, 22
+  size: 168, 333
+  orig: 170, 336
+  offset: 1, 1
+  index: -1
+mouse_cadet_02
+  rotate: true
+  xy: 1682, 357
+  size: 169, 333
+  orig: 171, 335
+  offset: 1, 1
+  index: -1
+mouse_cadet_03
+  rotate: true
+  xy: 2, 9
+  size: 220, 330
+  orig: 222, 332
+  offset: 1, 1
+  index: -1
+mouse_cadet_04
+  rotate: false
+  xy: 1554, 26
+  size: 231, 329
+  orig: 234, 331
+  offset: 1, 1
+  index: -1
+mouse_cadet_05
+  rotate: false
+  xy: 1787, 31
+  size: 206, 324
+  orig: 208, 326
+  offset: 1, 1
+  index: -1
+mouse_cadet_06
+  rotate: true
+  xy: 334, 22
+  size: 207, 324
+  orig: 209, 326
+  offset: 1, 1
+  index: -1
+mouse_cadet_07
+  rotate: false
+  xy: 1164, 386
+  size: 193, 336
+  orig: 195, 338
+  offset: 1, 1
+  index: -1
+mouse_cadet_08
+  rotate: false
+  xy: 1191, 48
+  size: 191, 336
+  orig: 194, 338
+  offset: 2, 1
+  index: -1
+mouse_cadet_09
+  rotate: false
+  xy: 660, 2
+  size: 193, 337
+  orig: 195, 339
+  offset: 1, 1
+  index: -1
+mouse_cadet_10
+  rotate: true
+  xy: 1682, 528
+  size: 194, 335
+  orig: 196, 337
+  offset: 1, 1
+  index: -1
+mouse_cadet_11
+  rotate: false
+  xy: 1359, 387
+  size: 321, 335
+  orig: 323, 337
+  offset: 1, 1
+  index: -1
+mouse_cadet_12
+  rotate: true
+  xy: 490, 341
+  size: 381, 334
+  orig: 383, 336
+  offset: 1, 1
+  index: -1
+mouse_cadet_13
+  rotate: true
+  xy: 826, 348
+  size: 374, 336
+  orig: 376, 338
+  offset: 1, 1
+  index: -1
+mouse_cadet_14
+  rotate: true
+  xy: 855, 5
+  size: 341, 334
+  orig: 343, 336
+  offset: 1, 1
+  index: -1
+spr_focus_arrow_0
+  rotate: true
+  xy: 2, 231
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

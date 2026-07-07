@@ -1,0 +1,108 @@
+
+avy_big.png
+size: 2038,1427
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frog_idol_07
+  rotate: true
+  xy: 2, 1190
+  size: 235, 350
+  orig: 502, 502
+  offset: 124, 41
+  index: -1
+frog_idol_big_01
+  rotate: false
+  xy: 354, 781
+  size: 838, 644
+  orig: 1352, 902
+  offset: 252, 82
+  index: -1
+frog_idol_big_02
+  rotate: false
+  xy: 2, 99
+  size: 891, 680
+  orig: 1352, 902
+  offset: 200, 80
+  index: -1
+frog_idol_big_03
+  rotate: false
+  xy: 1194, 735
+  size: 842, 690
+  orig: 1352, 902
+  offset: 247, 80
+  index: -1
+frog_idol_big_07
+  rotate: false
+  xy: 895, 2
+  size: 990, 731
+  orig: 1352, 902
+  offset: 231, 76
+  index: -1
+
+avy_big2.png
+size: 2005,1455
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frog_idol_big_05
+  rotate: false
+  xy: 2, 759
+  size: 1316, 694
+  orig: 1352, 902
+  offset: 14, 150
+  index: -1
+frog_idol_big_08
+  rotate: false
+  xy: 1045, 2
+  size: 958, 755
+  orig: 1352, 902
+  offset: 261, 83
+  index: -1
+frog_idol_big_09
+  rotate: false
+  xy: 2, 7
+  size: 1041, 750
+  orig: 1352, 902
+  offset: 216, 85
+  index: -1
+
+avy_big3.png
+size: 1913,1657
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frog_idol_big_06
+  rotate: false
+  xy: 2, 2
+  size: 1188, 775
+  orig: 1352, 902
+  offset: 115, 55
+  index: -1
+frog_idol_big_10
+  rotate: false
+  xy: 2, 885
+  size: 991, 770
+  orig: 1352, 902
+  offset: 250, 86
+  index: -1
+spr_focus_arrow_0
+  rotate: false
+  xy: 995, 779
+  size: 916, 876
+  orig: 935, 902
+  offset: 11, 13
+  index: -1
+
+avy_big4.png
+size: 1270,842
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frog_idol_big_04
+  rotate: false
+  xy: 2, 2
+  size: 1266, 838
+  orig: 1352, 902
+  offset: 37, 33
+  index: -1

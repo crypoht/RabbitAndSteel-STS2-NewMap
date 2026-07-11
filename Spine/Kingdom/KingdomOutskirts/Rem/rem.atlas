@@ -1,0 +1,97 @@
+
+rem.png
+size: 1955,705
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+spr_focus_arrow_0
+  rotate: true
+  xy: 2, 212
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1
+wolf_blackear_01
+  rotate: false
+  xy: 1514, 358
+  size: 206, 345
+  orig: 208, 347
+  offset: 1, 1
+  index: -1
+wolf_blackear_02
+  rotate: true
+  xy: 348, 3
+  size: 207, 346
+  orig: 209, 348
+  offset: 1, 1
+  index: -1
+wolf_blackear_03
+  rotate: false
+  xy: 1722, 38
+  size: 231, 331
+  orig: 233, 334
+  offset: 1, 1
+  index: -1
+wolf_blackear_04
+  rotate: false
+  xy: 1722, 371
+  size: 231, 332
+  orig: 233, 334
+  offset: 1, 1
+  index: -1
+wolf_blackear_05
+  rotate: false
+  xy: 1284, 357
+  size: 228, 346
+  orig: 230, 348
+  offset: 1, 1
+  index: -1
+wolf_blackear_06
+  rotate: false
+  xy: 1421, 9
+  size: 226, 346
+  orig: 228, 348
+  offset: 1, 1
+  index: -1
+wolf_blackear_07
+  rotate: true
+  xy: 2, 2
+  size: 208, 344
+  orig: 210, 346
+  offset: 1, 1
+  index: -1
+wolf_blackear_08
+  rotate: true
+  xy: 1064, 7
+  size: 307, 355
+  orig: 309, 357
+  offset: 1, 1
+  index: -1
+wolf_blackear_09
+  rotate: true
+  xy: 490, 294
+  size: 409, 273
+  orig: 411, 275
+  offset: 1, 1
+  index: -1
+wolf_blackear_10
+  rotate: true
+  xy: 765, 295
+  size: 408, 274
+  orig: 410, 276
+  offset: 1, 1
+  index: -1
+wolf_blackear_11
+  rotate: false
+  xy: 696, 2
+  size: 366, 290
+  orig: 368, 292
+  offset: 1, 1
+  index: -1
+wolf_blackear_12
+  rotate: true
+  xy: 1041, 316
+  size: 387, 241
+  orig: 389, 243
+  offset: 1, 1
+  index: -1

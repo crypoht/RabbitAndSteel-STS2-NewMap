@@ -1,0 +1,90 @@
+
+lette.png
+size: 1804,718
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+frog_songstress_01
+  rotate: false
+  xy: 846, 17
+  size: 193, 348
+  orig: 502, 502
+  offset: 164, 38
+  index: -1
+frog_songstress_02
+  rotate: true
+  xy: 1252, 195
+  size: 194, 348
+  orig: 502, 502
+  offset: 163, 38
+  index: -1
+frog_songstress_03
+  rotate: true
+  xy: 1241, 2
+  size: 191, 348
+  orig: 502, 502
+  offset: 163, 38
+  index: -1
+frog_songstress_04
+  rotate: false
+  xy: 1602, 21
+  size: 192, 347
+  orig: 502, 502
+  offset: 162, 38
+  index: -1
+frog_songstress_05
+  rotate: false
+  xy: 1604, 370
+  size: 198, 346
+  orig: 502, 502
+  offset: 160, 40
+  index: -1
+frog_songstress_06
+  rotate: false
+  xy: 1041, 21
+  size: 198, 346
+  orig: 502, 502
+  offset: 160, 40
+  index: -1
+frog_songstress_07
+  rotate: true
+  xy: 2, 17
+  size: 211, 349
+  orig: 502, 502
+  offset: 155, 36
+  index: -1
+frog_songstress_08
+  rotate: false
+  xy: 914, 369
+  size: 336, 347
+  orig: 502, 502
+  offset: 92, 39
+  index: -1
+frog_songstress_09
+  rotate: true
+  xy: 495, 44
+  size: 321, 349
+  orig: 502, 502
+  offset: 114, 39
+  index: -1
+frog_songstress_10
+  rotate: true
+  xy: 1252, 391
+  size: 325, 350
+  orig: 502, 502
+  offset: 93, 38
+  index: -1
+frog_songstress_11
+  rotate: false
+  xy: 495, 367
+  size: 417, 349
+  orig: 502, 502
+  offset: 24, 39
+  index: -1
+spr_focus_arrow_0
+  rotate: false
+  xy: 2, 230
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://orrsj506thbp"
+path="res://.godot/imported/bella.atlas-48be0369a00a0c440eabd8a6ea9c1e0c.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Bella/bella.atlas"
+dest_files=["res://.godot/imported/bella.atlas-48be0369a00a0c440eabd8a6ea9c1e0c.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

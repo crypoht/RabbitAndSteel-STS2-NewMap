@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://oylrjqrg5eds"
+path="res://.godot/imported/lette.atlas-28516c5d7af5dd473042b3bf1b8c61b0.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Jay&Lette/Lette/lette.atlas"
+dest_files=["res://.godot/imported/lette.atlas-28516c5d7af5dd473042b3bf1b8c61b0.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

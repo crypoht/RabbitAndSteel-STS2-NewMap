@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bt2qip2i16k0t"
+path="res://.godot/imported/rem.atlas-8aa83e8db8fdb3a044657a646a0b1ecd.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/rem.atlas"
+dest_files=["res://.godot/imported/rem.atlas-8aa83e8db8fdb3a044657a646a0b1ecd.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

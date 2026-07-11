@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dtau5ogsb3bqn"
+path="res://.godot/imported/avy_big.atlas-547ec54dff4cc8fd3c2e8ff570a976af.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Avy_big/avy_big.atlas"
+dest_files=["res://.godot/imported/avy_big.atlas-547ec54dff4cc8fd3c2e8ff570a976af.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

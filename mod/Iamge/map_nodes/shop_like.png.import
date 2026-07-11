@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b1i1bh2qhb60l"
-path="res://.godot/imported/maxi.png-8d457930505e0ec0b900b06c36b49651.ctex"
+uid="uid://3am7qjmpkrdq"
+path="res://.godot/imported/shop_like.png-8d69a2db28743feb4c59d6042aeb26cc.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Spine/Kingdom/KingdomOutskirts/Maxi/maxi.png"
-dest_files=["res://.godot/imported/maxi.png-8d457930505e0ec0b900b06c36b49651.ctex"]
+source_file="res://mod/Iamge/map_nodes/shop_like.png"
+dest_files=["res://.godot/imported/shop_like.png-8d69a2db28743feb4c59d6042aeb26cc.ctex"]
 
 [params]
 

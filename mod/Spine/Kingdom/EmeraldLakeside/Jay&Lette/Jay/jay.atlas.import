@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bd8h75smcu0fp"
+path="res://.godot/imported/jay.atlas-c0b4c1815ece061583b82c4a0ebe0c60.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Jay&Lette/Jay/jay.atlas"
+dest_files=["res://.godot/imported/jay.atlas-c0b4c1815ece061583b82c4a0ebe0c60.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

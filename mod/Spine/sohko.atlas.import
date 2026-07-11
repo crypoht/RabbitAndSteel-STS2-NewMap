@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bchvbhtmwv5rh"
+path="res://.godot/imported/sohko.atlas-3c40fdcbab157e9c014164ca8dfd8307.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/sohko.atlas"
+dest_files=["res://.godot/imported/sohko.atlas-3c40fdcbab157e9c014164ca8dfd8307.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

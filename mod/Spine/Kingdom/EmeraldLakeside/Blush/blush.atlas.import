@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://c70pqjqs50sjb"
+path="res://.godot/imported/blush.atlas-6dcf45354ec01ec3810ebf6b0aef1c69.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Blush/blush.atlas"
+dest_files=["res://.godot/imported/blush.atlas-6dcf45354ec01ec3810ebf6b0aef1c69.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

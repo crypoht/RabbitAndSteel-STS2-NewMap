@@ -10,22 +10,22 @@ using STS2RitsuLib.Scaffolding.Content;
 
 namespace RabbitAndSteelNewMap.Scripts.Act;
 
-public sealed class UnderAct : ModActTemplate
+public sealed class KingdomOutsideAct : ModActTemplate
 {
-    private static Hive VanillaContent => ModelDb.Act<Hive>();
+    private static Overgrowth VanillaContent => ModelDb.Act<Overgrowth>();
 
-    protected override int NumberOfWeakEncounters => 2;
-    protected override int BaseNumberOfRooms => 14;
-    public override int Index => 2;
+    protected override int NumberOfWeakEncounters => 3;
+    protected override int BaseNumberOfRooms => 15;
+    public override int Index => 0;
     public override bool IsDefault => false;
-    public override ActAssetProfile AssetProfile => ContentAssetProfiles.FromVanillaActId("hive");
-    public override string ChestSpineSkinNameNormal => "act2";
-    public override string ChestSpineSkinNameStroke => "act2_stroke";
+    public override ActAssetProfile AssetProfile => ContentAssetProfiles.FromVanillaActId("overgrowth");
+    public override string ChestSpineSkinNameNormal => "act1";
+    public override string ChestSpineSkinNameStroke => "act1_stroke";
     public override string ChestOpenSfx => VanillaContent.ChestOpenSfx;
     public override string AmbientSfx => VanillaContent.AmbientSfx;
-    public override Color MapBgColor => new("9B9562");
-    public override Color MapUntraveledColor => new("6E7750");
-    public override Color MapTraveledColor => new("27221C");
+    public override Color MapBgColor => new("A78A67");
+    public override Color MapUntraveledColor => new("877256");
+    public override Color MapTraveledColor => new("28231D");
     public override string[] MusicBankPaths => VanillaContent.MusicBankPaths;
     public override IEnumerable<EncounterModel> BossDiscoveryOrder => VanillaContent.BossDiscoveryOrder;
     public override IEnumerable<AncientEventModel> AllAncients => VanillaContent.AllAncients;
@@ -40,8 +40,8 @@ public sealed class UnderAct : ModActTemplate
 
     public override MapPointTypeCounts GetMapPointTypes(Rng rng)
     {
-        var restCount = rng.NextGaussianInt(6, 1, 6, 7);
-        var unknownCount = MapPointTypeCounts.StandardRandomUnknownCount(rng) - 1;
+        var restCount = rng.NextGaussianInt(7, 1, 6, 7);
+        var unknownCount = MapPointTypeCounts.StandardRandomUnknownCount(rng);
         return new MapPointTypeCounts(unknownCount, restCount);
     }
 

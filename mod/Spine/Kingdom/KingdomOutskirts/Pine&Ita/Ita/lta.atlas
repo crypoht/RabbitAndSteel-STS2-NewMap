@@ -1,0 +1,111 @@
+
+lta.png
+size: 2033,691
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+mouse_medic_01
+  rotate: true
+  xy: 1696, 480
+  size: 209, 335
+  orig: 211, 337
+  offset: 1, 1
+  index: -1
+mouse_medic_02
+  rotate: true
+  xy: 1696, 269
+  size: 209, 335
+  orig: 211, 337
+  offset: 1, 1
+  index: -1
+mouse_medic_03
+  rotate: true
+  xy: 337, 7
+  size: 189, 336
+  orig: 191, 338
+  offset: 1, 1
+  index: -1
+mouse_medic_04
+  rotate: true
+  xy: 2, 4
+  size: 192, 333
+  orig: 194, 335
+  offset: 1, 1
+  index: -1
+mouse_medic_05
+  rotate: false
+  xy: 1159, 9
+  size: 214, 339
+  orig: 216, 341
+  offset: 1, 1
+  index: -1
+mouse_medic_06
+  rotate: false
+  xy: 1479, 351
+  size: 215, 338
+  orig: 217, 340
+  offset: 1, 1
+  index: -1
+mouse_medic_07
+  rotate: false
+  xy: 1278, 350
+  size: 199, 339
+  orig: 201, 341
+  offset: 1, 1
+  index: -1
+mouse_medic_08
+  rotate: false
+  xy: 1043, 350
+  size: 233, 339
+  orig: 235, 341
+  offset: 1, 1
+  index: -1
+mouse_medic_09
+  rotate: true
+  xy: 1630, 16
+  size: 251, 337
+  orig: 253, 339
+  offset: 1, 1
+  index: -1
+mouse_medic_10
+  rotate: false
+  xy: 1375, 10
+  size: 253, 338
+  orig: 256, 340
+  offset: 1, 1
+  index: -1
+mouse_medic_11
+  rotate: false
+  xy: 490, 346
+  size: 327, 343
+  orig: 329, 345
+  offset: 1, 1
+  index: -1
+mouse_medic_12
+  rotate: false
+  xy: 900, 4
+  size: 257, 341
+  orig: 259, 343
+  offset: 1, 1
+  index: -1
+mouse_medic_13
+  rotate: false
+  xy: 675, 2
+  size: 223, 342
+  orig: 225, 344
+  offset: 1, 1
+  index: -1
+mouse_medic_14
+  rotate: false
+  xy: 819, 347
+  size: 222, 342
+  orig: 224, 344
+  offset: 1, 1
+  index: -1
+spr_focus_arrow_0
+  rotate: true
+  xy: 2, 198
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

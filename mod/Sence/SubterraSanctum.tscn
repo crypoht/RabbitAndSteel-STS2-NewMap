@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://5ftgjvbhmcnd"]
+
+[ext_resource type="Script" uid="uid://b1vg1dhy88ubc" path="res://Scripts/Background/ModCombatBackground.cs" id="1_background"]
+[ext_resource type="Texture2D" uid="uid://bad45mu2l2qup" path="res://mod/Iamge/background/SubterraSanctum.png" id="2_texture"]
+
+[node name="SubterraSanctumBackground" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_background")
+
+[node name="Layer_00" type="Control" parent="."]
+unique_name_in_owner = true
+anchors_preset = 0
+
+[node name="Visual" type="TextureRect" parent="Layer_00"]
+layout_mode = 0
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -1440.0
+offset_top = -675.0
+offset_right = 1440.0
+offset_bottom = 675.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("2_texture")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="Layer_01" type="Control" parent="."]
+unique_name_in_owner = true
+anchors_preset = 0

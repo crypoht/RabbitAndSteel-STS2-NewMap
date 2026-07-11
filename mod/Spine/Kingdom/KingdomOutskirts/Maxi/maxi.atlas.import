@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://bb7k6roequf1g"
+path="res://.godot/imported/maxi.atlas-6832d8da50f362943c205e8a6949db93.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Maxi/maxi.atlas"
+dest_files=["res://.godot/imported/maxi.atlas-6832d8da50f362943c205e8a6949db93.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

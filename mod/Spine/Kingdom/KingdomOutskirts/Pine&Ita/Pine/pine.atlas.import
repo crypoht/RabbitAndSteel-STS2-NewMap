@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://cuahiaktp0b2x"
+path="res://.godot/imported/pine.atlas-f69e81860120421edc359aba13140255.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Pine&Ita/Pine/pine.atlas"
+dest_files=["res://.godot/imported/pine.atlas-f69e81860120421edc359aba13140255.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

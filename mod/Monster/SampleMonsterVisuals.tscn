@@ -1,0 +1,33 @@
+[gd_scene load_steps=2 format=3 uid="uid://11kgts2mvwsd"]
+
+[ext_resource type="SpineSkeletonDataResource" uid="uid://b3t3jpf3kguol" path="res://mod/Spine/new_spine_skeleton_data_resource.tres" id="1_h0ds3"]
+
+[node name="SampleMonsterVisuals" type="Node2D"]
+metadata/_edit_group_ = true
+
+[node name="Visuals" type="SpineSprite" parent="."]
+skeleton_data_res = ExtResource("1_h0ds3")
+unique_name_in_owner = true
+position = Vector2(0, -120)
+scale = Vector2(0.35, 0.35)
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -130.0
+offset_top = -260.0
+offset_right = 130.0
+mouse_filter = 2
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -310)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -135)
+
+[node name="TalkPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-120, -220)

@@ -5,7 +5,9 @@ using MegaCrit.Sts2.Core.Logging;
 using STS2RitsuLib;
 using STS2RitsuLib.Interop;
 using STS2RitsuLib.Interop.AutoRegistration;
+using STS2RitsuLib.Patching.Core;
 using RabbitAndSteelNewMap.Scripts.Act;
+using RabbitAndSteelNewMap.Scripts.Map;
 
 namespace RabbitAndSteelNewMap.Scripts;
 
@@ -21,6 +23,17 @@ public class Entry
         Logger = RitsuLibFramework.CreateLogger(ModId);
         RitsuLibFramework.EnsureGodotScriptsRegistered(assembly, Logger);
         ModTypeDiscoveryHub.RegisterModAssembly(ModId, assembly);
+        CustomMapNodeRegistry.Initialize();
+        ApplyPatches();
         ContentRegistration.Register();
+    }
+
+    private static void ApplyPatches()
+    {
+        var patcher = RitsuLibFramework.CreatePatcher(ModId, "map-ui");
+        patcher.RegisterPatches<MapUiPatches>();
+
+        if (!patcher.PatchAll())
+            throw new InvalidOperationException("Failed to apply map UI patches.");
     }
 }

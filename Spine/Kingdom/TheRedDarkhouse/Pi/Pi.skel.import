@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://buw66wfuukhdy"
+path="res://.godot/imported/Pi.skel-b8fd3b34800e802c246437f906e0fefc.spskel"
+
+[deps]
+
+source_file="res://Spine/Kingdom/TheRedDarkhouse/Pi/Pi.skel"
+dest_files=["res://.godot/imported/Pi.skel-b8fd3b34800e802c246437f906e0fefc.spskel"]
+
+[params]
+

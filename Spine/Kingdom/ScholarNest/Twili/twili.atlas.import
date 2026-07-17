@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://ctv1inq1mc33r"
+path="res://.godot/imported/twili.atlas-716a36da2b0dd8e1383f7ae9feb61875.spatlas"
+
+[deps]
+
+source_file="res://Spine/Kingdom/ScholarNest/Twili/twili.atlas"
+dest_files=["res://.godot/imported/twili.atlas-716a36da2b0dd8e1383f7ae9feb61875.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

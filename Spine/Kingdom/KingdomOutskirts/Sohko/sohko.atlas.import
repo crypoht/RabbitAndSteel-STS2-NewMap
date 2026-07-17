@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://ftgm0rq1oua3"
+path="res://.godot/imported/sohko.atlas-491bc02a0665ec685d75acf5424749fa.spatlas"
+
+[deps]
+
+source_file="res://Spine/Kingdom/KingdomOutskirts/Sohko/sohko.atlas"
+dest_files=["res://.godot/imported/sohko.atlas-491bc02a0665ec685d75acf5424749fa.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

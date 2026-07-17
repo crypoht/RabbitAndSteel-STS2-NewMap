@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://ihj6vyvy7roy"
+path="res://.godot/imported/azel.atlas-dddf1eb0164c16f88fffec06a05cfc6a.spatlas"
+
+[deps]
+
+source_file="res://Spine/Kingdom/ScholarNest/Azel/azel.atlas"
+dest_files=["res://.godot/imported/azel.atlas-dddf1eb0164c16f88fffec06a05cfc6a.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

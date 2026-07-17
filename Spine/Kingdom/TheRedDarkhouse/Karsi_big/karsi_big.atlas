@@ -1,0 +1,41 @@
+
+karsi_big.png
+size: 1185,1179
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon_ruby_07
+  rotate: false
+  xy: 943, 236
+  size: 238, 352
+  orig: 500, 500
+  offset: 121, 35
+  index: -1
+dragon_ruby_big_01
+  rotate: false
+  xy: 2, 592
+  size: 657, 585
+  orig: 700, 650
+  offset: 26, 26
+  index: -1
+dragon_ruby_big_02
+  rotate: false
+  xy: 2, 2
+  size: 451, 588
+  orig: 700, 650
+  offset: 225, 24
+  index: -1
+dragon_ruby_big_03
+  rotate: false
+  xy: 661, 590
+  size: 522, 587
+  orig: 700, 650
+  offset: 160, 25
+  index: -1
+spr_focus_arrow_0
+  rotate: true
+  xy: 455, 97
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

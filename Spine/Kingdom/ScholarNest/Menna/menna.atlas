@@ -1,0 +1,111 @@
+
+menna.png
+size: 1957,848
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bird_student_01
+  rotate: false
+  xy: 427, 3
+  size: 203, 350
+  orig: 500, 500
+  offset: 133, 41
+  index: -1
+bird_student_02
+  rotate: false
+  xy: 1408, 504
+  size: 212, 342
+  orig: 500, 500
+  offset: 128, 41
+  index: -1
+bird_student_03
+  rotate: false
+  xy: 1332, 148
+  size: 194, 347
+  orig: 500, 500
+  offset: 134, 44
+  index: -1
+bird_student_04
+  rotate: false
+  xy: 1746, 61
+  size: 206, 339
+  orig: 500, 500
+  offset: 128, 44
+  index: -1
+bird_student_05
+  rotate: false
+  xy: 1528, 60
+  size: 216, 340
+  orig: 500, 500
+  offset: 127, 42
+  index: -1
+bird_student_06
+  rotate: true
+  xy: 1622, 618
+  size: 228, 333
+  orig: 500, 500
+  offset: 123, 41
+  index: -1
+bird_student_07
+  rotate: true
+  xy: 1622, 402
+  size: 214, 325
+  orig: 500, 500
+  offset: 122, 72
+  index: -1
+bird_student_08
+  rotate: false
+  xy: 2, 2
+  size: 206, 351
+  orig: 500, 500
+  offset: 144, 44
+  index: -1
+bird_student_09
+  rotate: false
+  xy: 210, 3
+  size: 215, 350
+  orig: 500, 500
+  offset: 148, 44
+  index: -1
+bird_student_10
+  rotate: false
+  xy: 1190, 497
+  size: 216, 349
+  orig: 500, 500
+  offset: 139, 44
+  index: -1
+bird_student_11
+  rotate: true
+  xy: 632, 49
+  size: 397, 348
+  orig: 500, 500
+  offset: 39, 40
+  index: -1
+bird_student_12
+  rotate: true
+  xy: 840, 449
+  size: 397, 348
+  orig: 500, 500
+  offset: 45, 40
+  index: -1
+bird_student_13
+  rotate: true
+  xy: 490, 448
+  size: 398, 348
+  orig: 500, 500
+  offset: 44, 40
+  index: -1
+bird_student_14
+  rotate: true
+  xy: 982, 52
+  size: 395, 348
+  orig: 500, 500
+  offset: 45, 40
+  index: -1
+spr_focus_arrow_0
+  rotate: true
+  xy: 2, 355
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

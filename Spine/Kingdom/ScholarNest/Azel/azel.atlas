@@ -1,0 +1,111 @@
+
+azel.png
+size: 1416,1189
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bird_whispering_01
+  rotate: true
+  xy: 495, 598
+  size: 239, 349
+  orig: 500, 500
+  offset: 119, 40
+  index: -1
+bird_whispering_02
+  rotate: false
+  xy: 1172, 837
+  size: 240, 350
+  orig: 500, 500
+  offset: 119, 40
+  index: -1
+bird_whispering_03
+  rotate: true
+  xy: 392, 100
+  size: 229, 333
+  orig: 500, 500
+  offset: 132, 48
+  index: -1
+bird_whispering_04
+  rotate: true
+  xy: 1073, 39
+  size: 237, 331
+  orig: 500, 500
+  offset: 127, 49
+  index: -1
+bird_whispering_05
+  rotate: true
+  xy: 727, 73
+  size: 210, 344
+  orig: 500, 500
+  offset: 122, 47
+  index: -1
+bird_whispering_06
+  rotate: true
+  xy: 1078, 278
+  size: 218, 336
+  orig: 500, 500
+  offset: 120, 45
+  index: -1
+bird_whispering_07
+  rotate: true
+  xy: 731, 285
+  size: 238, 345
+  orig: 500, 500
+  offset: 116, 43
+  index: -1
+bird_whispering_08
+  rotate: false
+  xy: 1114, 498
+  size: 265, 337
+  orig: 500, 500
+  offset: 110, 40
+  index: -1
+bird_whispering_09
+  rotate: true
+  xy: 392, 331
+  size: 265, 337
+  orig: 500, 500
+  offset: 110, 40
+  index: -1
+bird_whispering_10
+  rotate: false
+  xy: 846, 525
+  size: 266, 337
+  orig: 500, 500
+  offset: 109, 40
+  index: -1
+bird_whispering_11
+  rotate: false
+  xy: 2, 326
+  size: 388, 373
+  orig: 500, 500
+  offset: 41, 40
+  index: -1
+bird_whispering_12
+  rotate: true
+  xy: 2, 2
+  size: 322, 375
+  orig: 500, 500
+  offset: 83, 40
+  index: -1
+bird_whispering_13
+  rotate: false
+  xy: 495, 839
+  size: 324, 348
+  orig: 500, 500
+  offset: 82, 40
+  index: -1
+bird_whispering_14
+  rotate: true
+  xy: 821, 864
+  size: 323, 349
+  orig: 500, 500
+  offset: 83, 40
+  index: -1
+spr_focus_arrow_0
+  rotate: false
+  xy: 2, 701
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

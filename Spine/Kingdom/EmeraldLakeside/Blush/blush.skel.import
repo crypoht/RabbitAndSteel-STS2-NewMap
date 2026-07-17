@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://ddm8atn1g6l4g"
+path="res://.godot/imported/blush.skel-502618c978effe19fe71d37c722cc92a.spskel"
+
+[deps]
+
+source_file="res://Spine/Kingdom/EmeraldLakeside/Blush/blush.skel"
+dest_files=["res://.godot/imported/blush.skel-502618c978effe19fe71d37c722cc92a.spskel"]
+
+[params]
+

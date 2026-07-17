@@ -1,0 +1,111 @@
+
+saya.png
+size: 2027,917
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bird_archon_01
+  rotate: false
+  xy: 1747, 588
+  size: 278, 327
+  orig: 500, 500
+  offset: 99, 41
+  index: -1
+bird_archon_02
+  rotate: true
+  xy: 1021, 12
+  size: 278, 327
+  orig: 500, 500
+  offset: 99, 41
+  index: -1
+bird_archon_03
+  rotate: true
+  xy: 363, 2
+  size: 288, 327
+  orig: 500, 500
+  offset: 99, 42
+  index: -1
+bird_archon_04
+  rotate: true
+  xy: 1484, 295
+  size: 291, 327
+  orig: 500, 500
+  offset: 95, 42
+  index: -1
+bird_archon_05
+  rotate: true
+  xy: 692, 3
+  size: 287, 327
+  orig: 500, 500
+  offset: 88, 40
+  index: -1
+bird_archon_06
+  rotate: true
+  xy: 1155, 292
+  size: 294, 327
+  orig: 500, 500
+  offset: 84, 40
+  index: -1
+bird_archon_07
+  rotate: false
+  xy: 1445, 588
+  size: 300, 327
+  orig: 500, 500
+  offset: 86, 39
+  index: -1
+bird_archon_08
+  rotate: true
+  xy: 1484, 4
+  size: 289, 327
+  orig: 500, 500
+  offset: 98, 41
+  index: -1
+bird_archon_09
+  rotate: true
+  xy: 495, 296
+  size: 290, 328
+  orig: 500, 500
+  offset: 98, 40
+  index: -1
+bird_archon_10
+  rotate: true
+  xy: 825, 292
+  size: 294, 328
+  orig: 500, 500
+  offset: 98, 40
+  index: -1
+bird_archon_11
+  rotate: false
+  xy: 2, 48
+  size: 359, 379
+  orig: 500, 500
+  offset: 57, 41
+  index: -1
+bird_archon_12
+  rotate: false
+  xy: 818, 588
+  size: 312, 327
+  orig: 500, 500
+  offset: 91, 41
+  index: -1
+bird_archon_13
+  rotate: false
+  xy: 495, 588
+  size: 321, 327
+  orig: 500, 500
+  offset: 86, 41
+  index: -1
+bird_archon_14
+  rotate: false
+  xy: 1132, 588
+  size: 311, 327
+  orig: 500, 500
+  offset: 88, 41
+  index: -1
+spr_focus_arrow_0
+  rotate: false
+  xy: 2, 429
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

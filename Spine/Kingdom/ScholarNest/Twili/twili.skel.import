@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://bqlty5ffl7bp3"
+path="res://.godot/imported/twili.skel-670802e2408225bbabb1d6eeb0622ef4.spskel"
+
+[deps]
+
+source_file="res://Spine/Kingdom/ScholarNest/Twili/twili.skel"
+dest_files=["res://.godot/imported/twili.skel-670802e2408225bbabb1d6eeb0622ef4.spskel"]
+
+[params]
+

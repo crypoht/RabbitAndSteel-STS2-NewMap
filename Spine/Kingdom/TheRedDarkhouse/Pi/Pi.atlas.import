@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://b58xkbkb8tfhb"
+path="res://.godot/imported/Pi.atlas-f3dbdb0fb9727a1932297be90d6b7e7c.spatlas"
+
+[deps]
+
+source_file="res://Spine/Kingdom/TheRedDarkhouse/Pi/Pi.atlas"
+dest_files=["res://.godot/imported/Pi.atlas-f3dbdb0fb9727a1932297be90d6b7e7c.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

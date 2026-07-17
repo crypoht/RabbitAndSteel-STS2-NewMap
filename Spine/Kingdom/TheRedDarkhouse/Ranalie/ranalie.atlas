@@ -1,0 +1,111 @@
+
+ranalie.png
+size: 1884,889
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon_mythril_01
+  rotate: false
+  xy: 294, 44
+  size: 273, 355
+  orig: 500, 500
+  offset: 91, 48
+  index: -1
+dragon_mythril_02
+  rotate: false
+  xy: 843, 252
+  size: 273, 354
+  orig: 500, 500
+  offset: 91, 48
+  index: -1
+dragon_mythril_03
+  rotate: false
+  xy: 1118, 254
+  size: 265, 351
+  orig: 500, 500
+  offset: 97, 49
+  index: -1
+dragon_mythril_04
+  rotate: false
+  xy: 1385, 254
+  size: 263, 350
+  orig: 500, 500
+  offset: 99, 49
+  index: -1
+dragon_mythril_05
+  rotate: true
+  xy: 779, 608
+  size: 279, 354
+  orig: 500, 500
+  offset: 89, 49
+  index: -1
+dragon_mythril_06
+  rotate: false
+  xy: 1650, 250
+  size: 232, 354
+  orig: 500, 500
+  offset: 136, 49
+  index: -1
+dragon_mythril_07
+  rotate: false
+  xy: 569, 177
+  size: 272, 356
+  orig: 500, 500
+  offset: 98, 50
+  index: -1
+dragon_mythril_08
+  rotate: true
+  xy: 843, 14
+  size: 236, 323
+  orig: 500, 500
+  offset: 109, 67
+  index: -1
+dragon_mythril_09
+  rotate: true
+  xy: 1168, 2
+  size: 250, 325
+  orig: 500, 500
+  offset: 104, 65
+  index: -1
+dragon_mythril_10
+  rotate: true
+  xy: 1495, 5
+  size: 243, 323
+  orig: 500, 500
+  offset: 109, 67
+  index: -1
+dragon_mythril_11
+  rotate: false
+  xy: 2, 49
+  size: 290, 350
+  orig: 500, 500
+  offset: 84, 53
+  index: -1
+dragon_mythril_12
+  rotate: false
+  xy: 495, 535
+  size: 282, 352
+  orig: 500, 500
+  offset: 84, 52
+  index: -1
+dragon_mythril_13
+  rotate: true
+  xy: 1135, 607
+  size: 280, 350
+  orig: 500, 500
+  offset: 85, 53
+  index: -1
+dragon_mythril_14
+  rotate: true
+  xy: 1487, 606
+  size: 281, 350
+  orig: 500, 500
+  offset: 84, 53
+  index: -1
+spr_focus_arrow_0
+  rotate: false
+  xy: 2, 401
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

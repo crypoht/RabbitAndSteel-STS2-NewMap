@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://sfn13y7m6t1o"
+path="res://.godot/imported/illie.skel-03b22e26a6df0ce49e4ae8e13b8f00cd.spskel"
+
+[deps]
+
+source_file="res://Spine/Kingdom/TheRedDarkhouse/illie/illie.skel"
+dest_files=["res://.godot/imported/illie.skel-03b22e26a6df0ce49e4ae8e13b8f00cd.spskel"]
+
+[params]
+

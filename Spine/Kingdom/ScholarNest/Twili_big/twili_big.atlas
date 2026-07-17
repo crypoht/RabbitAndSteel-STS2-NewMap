@@ -1,0 +1,116 @@
+
+twili_big.png
+size: 1824,1792
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bird_valedictorian_big_07
+  rotate: false
+  xy: 2, 994
+  size: 996, 796
+  orig: 1150, 900
+  offset: 87, 76
+  index: -1
+bird_valedictorian_big_08
+  rotate: true
+  xy: 1000, 838
+  size: 952, 822
+  orig: 1150, 900
+  offset: 86, 67
+  index: -1
+bird_valedictorian_big_09
+  rotate: false
+  xy: 810, 2
+  size: 963, 804
+  orig: 1150, 900
+  offset: 85, 75
+  index: -1
+bird_valedictorian_big_10
+  rotate: true
+  xy: 2, 34
+  size: 958, 806
+  orig: 1150, 900
+  offset: 87, 76
+  index: -1
+spr_effect_clockface_1
+  rotate: false
+  xy: 810, 808
+  size: 15, 184
+  orig: 512, 512
+  offset: 248, 253
+  index: -1
+
+twili_big2.png
+size: 1938,1560
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b41-(7)
+  rotate: true
+  xy: 2, 1201
+  size: 357, 358
+  orig: 359, 360
+  offset: 1, 1
+  index: -1
+bird_valedictorian_big_01
+  rotate: false
+  xy: 902, 2
+  size: 896, 660
+  orig: 1150, 900
+  offset: 69, 73
+  index: -1
+bird_valedictorian_big_02
+  rotate: false
+  xy: 2, 411
+  size: 898, 659
+  orig: 1150, 900
+  offset: 67, 74
+  index: -1
+bird_valedictorian_big_03
+  rotate: true
+  xy: 1276, 664
+  size: 894, 660
+  orig: 1150, 900
+  offset: 70, 74
+  index: -1
+spr_effect_clockface_0
+  rotate: false
+  xy: 362, 1139
+  size: 419, 419
+  orig: 512, 512
+  offset: 46, 47
+  index: -1
+spr_focus_arrow_0
+  rotate: false
+  xy: 783, 1072
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1
+
+twili_big3.png
+size: 1713,1540
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bird_valedictorian_big_04
+  rotate: true
+  xy: 2, 615
+  size: 923, 783
+  orig: 1150, 900
+  offset: 75, 70
+  index: -1
+bird_valedictorian_big_05
+  rotate: false
+  xy: 787, 769
+  size: 924, 769
+  orig: 1150, 900
+  offset: 73, 77
+  index: -1
+bird_valedictorian_big_06
+  rotate: false
+  xy: 787, 2
+  size: 922, 765
+  orig: 1150, 900
+  offset: 76, 78
+  index: -1

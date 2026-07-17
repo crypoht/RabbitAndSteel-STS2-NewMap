@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://dk4pf2layhrwv"
+path="res://.godot/imported/menna.skel-a3869b681222b80d1decd2f473bd6f05.spskel"
+
+[deps]
+
+source_file="res://Spine/Kingdom/ScholarNest/Menna/menna.skel"
+dest_files=["res://.godot/imported/menna.skel-a3869b681222b80d1decd2f473bd6f05.spskel"]
+
+[params]
+

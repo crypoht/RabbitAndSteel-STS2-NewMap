@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://u2udpvgcoaan"
+path="res://.godot/imported/mav.atlas-8860561e6949665e79392a2134c27bc8.spatlas"
+
+[deps]
+
+source_file="res://Spine/Kingdom/EmeraldLakeside/Mav/mav.atlas"
+dest_files=["res://.godot/imported/mav.atlas-8860561e6949665e79392a2134c27bc8.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

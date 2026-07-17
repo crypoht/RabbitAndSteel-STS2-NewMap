@@ -1,0 +1,111 @@
+
+Pi.png
+size: 1804,855
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon_gold_01
+  rotate: false
+  xy: 1050, 235
+  size: 227, 331
+  orig: 500, 500
+  offset: 121, 37
+  index: -1
+dragon_gold_02
+  rotate: false
+  xy: 297, 33
+  size: 232, 332
+  orig: 500, 500
+  offset: 115, 36
+  index: -1
+dragon_gold_03
+  rotate: false
+  xy: 799, 241
+  size: 249, 325
+  orig: 500, 500
+  offset: 94, 43
+  index: -1
+dragon_gold_04
+  rotate: false
+  xy: 1482, 262
+  size: 243, 323
+  orig: 500, 500
+  offset: 97, 44
+  index: -1
+dragon_gold_05
+  rotate: true
+  xy: 788, 568
+  size: 285, 334
+  orig: 500, 500
+  offset: 150, 34
+  index: -1
+dragon_gold_06
+  rotate: true
+  xy: 1458, 587
+  size: 266, 332
+  orig: 500, 500
+  offset: 156, 35
+  index: -1
+dragon_gold_07
+  rotate: false
+  xy: 1279, 239
+  size: 201, 340
+  orig: 500, 500
+  offset: 146, 33
+  index: -1
+dragon_gold_08
+  rotate: true
+  xy: 1482, 28
+  size: 232, 320
+  orig: 500, 500
+  offset: 118, 38
+  index: -1
+dragon_gold_09
+  rotate: true
+  xy: 1123, 2
+  size: 231, 321
+  orig: 500, 500
+  offset: 118, 38
+  index: -1
+dragon_gold_10
+  rotate: true
+  xy: 799, 2
+  size: 231, 322
+  orig: 500, 500
+  offset: 118, 37
+  index: -1
+dragon_gold_11
+  rotate: false
+  xy: 495, 521
+  size: 291, 332
+  orig: 500, 500
+  offset: 104, 36
+  index: -1
+dragon_gold_12
+  rotate: true
+  xy: 1124, 581
+  size: 272, 332
+  orig: 500, 500
+  offset: 116, 35
+  index: -1
+dragon_gold_13
+  rotate: false
+  xy: 2, 33
+  size: 293, 332
+  orig: 500, 500
+  offset: 101, 36
+  index: -1
+dragon_gold_14
+  rotate: false
+  xy: 531, 187
+  size: 266, 332
+  orig: 500, 500
+  offset: 115, 36
+  index: -1
+spr_focus_arrow_0
+  rotate: false
+  xy: 2, 367
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

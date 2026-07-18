@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://v8x8wyf07d8n"
+path="res://.godot/imported/menna.atlas-98ac69533567f8758d2e74e20e44e38e.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/ScholarNest/Menna/menna.atlas"
+dest_files=["res://.godot/imported/menna.atlas-98ac69533567f8758d2e74e20e44e38e.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

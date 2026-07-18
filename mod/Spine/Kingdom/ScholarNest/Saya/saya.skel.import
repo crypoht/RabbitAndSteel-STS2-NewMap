@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://qliudnvip6to"
+path="res://.godot/imported/saya.skel-05b5e3226c68e03a48714f9a5edf772e.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/ScholarNest/Saya/saya.skel"
+dest_files=["res://.godot/imported/saya.skel-05b5e3226c68e03a48714f9a5edf772e.spskel"]
+
+[params]
+

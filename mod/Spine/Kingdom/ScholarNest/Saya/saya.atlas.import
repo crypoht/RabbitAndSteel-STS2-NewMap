@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://ucucqbpgfjxm"
+path="res://.godot/imported/saya.atlas-463ba7c55df57671685d55aa1d95f4a3.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/ScholarNest/Saya/saya.atlas"
+dest_files=["res://.godot/imported/saya.atlas-463ba7c55df57671685d55aa1d95f4a3.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

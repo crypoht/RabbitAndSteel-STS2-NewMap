@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://dx5n8txatkg6l"
+path="res://.godot/imported/ranalie_big.atlas-a048c74be4349c413db8f40306baf9be.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/TheRedDarkhouse/Ranalie_big/ranalie_big.atlas"
+dest_files=["res://.godot/imported/ranalie_big.atlas-a048c74be4349c413db8f40306baf9be.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

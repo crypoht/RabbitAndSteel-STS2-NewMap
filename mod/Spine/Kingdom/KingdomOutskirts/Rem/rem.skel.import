@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://cgmkg4ixjyhou"
+path="res://.godot/imported/rem.skel-4d61fcdb27064e39c441862091cb36aa.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/rem.skel"
+dest_files=["res://.godot/imported/rem.skel-4d61fcdb27064e39c441862091cb36aa.spskel"]
+
+[params]
+

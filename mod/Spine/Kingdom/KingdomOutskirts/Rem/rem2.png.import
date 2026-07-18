@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tyvgv2md678d"
-path="res://.godot/imported/rem.png-0eeccde7459a4abb90661d5f3cecc983.ctex"
+uid="uid://lp2gwp2g1050"
+path="res://.godot/imported/rem2.png-44a9990f74e97a7c8f6d4f815d182133.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/rem.png"
-dest_files=["res://.godot/imported/rem.png-0eeccde7459a4abb90661d5f3cecc983.ctex"]
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/rem2.png"
+dest_files=["res://.godot/imported/rem2.png-44a9990f74e97a7c8f6d4f815d182133.ctex"]
 
 [params]
 

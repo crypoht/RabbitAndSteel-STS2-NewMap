@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://blua70hdwe7gt"
+path="res://.godot/imported/karsi.atlas-737dfc3b0663264894246d77befada17.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/TheRedDarkhouse/Karsi/karsi.atlas"
+dest_files=["res://.godot/imported/karsi.atlas-737dfc3b0663264894246d77befada17.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

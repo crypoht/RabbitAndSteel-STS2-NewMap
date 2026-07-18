@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tyvgv2md678d"
-path="res://.godot/imported/rem.png-0eeccde7459a4abb90661d5f3cecc983.ctex"
+uid="uid://cxnso730geece"
+path="res://.godot/imported/karsi.png-8e553f9132b71a54dcb95d4f8a8e0130.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/rem.png"
-dest_files=["res://.godot/imported/rem.png-0eeccde7459a4abb90661d5f3cecc983.ctex"]
+source_file="res://mod/Spine/Kingdom/TheRedDarkhouse/Karsi/karsi.png"
+dest_files=["res://.godot/imported/karsi.png-8e553f9132b71a54dcb95d4f8a8e0130.ctex"]
 
 [params]
 

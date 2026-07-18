@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://d4jqy30hwxdny"
+path="res://.godot/imported/azel.skel-f333bb8a9ce91178dfdd5b9685242268.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/ScholarNest/Azel/azel.skel"
+dest_files=["res://.godot/imported/azel.skel-f333bb8a9ce91178dfdd5b9685242268.spskel"]
+
+[params]
+

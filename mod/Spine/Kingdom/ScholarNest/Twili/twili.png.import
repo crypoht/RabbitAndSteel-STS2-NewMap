@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tyvgv2md678d"
-path="res://.godot/imported/rem.png-0eeccde7459a4abb90661d5f3cecc983.ctex"
+uid="uid://btk1wn3htkph5"
+path="res://.godot/imported/twili.png-48f1a1195d7f05a53daf61c2947f307a.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/rem.png"
-dest_files=["res://.godot/imported/rem.png-0eeccde7459a4abb90661d5f3cecc983.ctex"]
+source_file="res://mod/Spine/Kingdom/ScholarNest/Twili/twili.png"
+dest_files=["res://.godot/imported/twili.png-48f1a1195d7f05a53daf61c2947f307a.ctex"]
 
 [params]
 

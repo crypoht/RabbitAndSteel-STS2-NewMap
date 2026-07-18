@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://dn1pfmrwulbvy"
+path="res://.godot/imported/karsi_big.skel-5c422edc121786577560c2adc110cc94.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/TheRedDarkhouse/Karsi_big/karsi_big.skel"
+dest_files=["res://.godot/imported/karsi_big.skel-5c422edc121786577560c2adc110cc94.spskel"]
+
+[params]
+

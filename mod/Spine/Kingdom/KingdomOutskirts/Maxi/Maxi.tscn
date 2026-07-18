@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://ey5awdagdy88"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://bb7k6roequf1g" path="res://mod/Spine/Kingdom/KingdomOutskirts/Maxi/maxi.atlas" id="1_l34lw"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://cuxoqd7fsxbiy" path="res://mod/Spine/Kingdom/KingdomOutskirts/Maxi/maxi.skel" id="2_1oevd"]
+
+[sub_resource type="SpineSkeletonDataResource" id="SpineSkeletonDataResource_t7fr0"]
+atlas_res = ExtResource("1_l34lw")
+skeleton_file_res = ExtResource("2_1oevd")
+
+[node name="Maxi" type="Node"]
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+skeleton_data_res = SubResource("SpineSkeletonDataResource_t7fr0")
+preview_skin = "Default"
+preview_animation = "hurt"
+preview_frame = false
+preview_time = 0.0

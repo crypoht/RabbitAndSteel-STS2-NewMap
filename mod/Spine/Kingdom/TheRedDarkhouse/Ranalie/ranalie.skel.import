@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://utu74ku3qtne"
+path="res://.godot/imported/ranalie.skel-ae0cfae48706f69e219340f2ea66ae75.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/TheRedDarkhouse/Ranalie/ranalie.skel"
+dest_files=["res://.godot/imported/ranalie.skel-ae0cfae48706f69e219340f2ea66ae75.spskel"]
+
+[params]
+

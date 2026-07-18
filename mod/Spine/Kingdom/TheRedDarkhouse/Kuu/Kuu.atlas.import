@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://piov2bubvtx6"
+path="res://.godot/imported/Kuu.atlas-2ee1c53ef9271eb0e98e755b11a7a0a9.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/TheRedDarkhouse/Kuu/Kuu.atlas"
+dest_files=["res://.godot/imported/Kuu.atlas-2ee1c53ef9271eb0e98e755b11a7a0a9.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

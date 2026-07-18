@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://des238rh5p00v"
+path="res://.godot/imported/avy_big.skel-b05147db64d568eb6944dc6286fe5e6d.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Avy_big/avy_big.skel"
+dest_files=["res://.godot/imported/avy_big.skel-b05147db64d568eb6944dc6286fe5e6d.spskel"]
+
+[params]
+

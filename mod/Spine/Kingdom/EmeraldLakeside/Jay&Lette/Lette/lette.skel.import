@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://l0jaypok6a0u"
+path="res://.godot/imported/lette.skel-992755c7038a02c6708245823b8a5f8c.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Jay&Lette/Lette/lette.skel"
+dest_files=["res://.godot/imported/lette.skel-992755c7038a02c6708245823b8a5f8c.spskel"]
+
+[params]
+

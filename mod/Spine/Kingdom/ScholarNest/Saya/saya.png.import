@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://tyvgv2md678d"
-path="res://.godot/imported/rem.png-0eeccde7459a4abb90661d5f3cecc983.ctex"
+uid="uid://b7ukf20uuh53x"
+path="res://.godot/imported/saya.png-e7cddd5fe891fa0f941391c8248f54a5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/rem.png"
-dest_files=["res://.godot/imported/rem.png-0eeccde7459a4abb90661d5f3cecc983.ctex"]
+source_file="res://mod/Spine/Kingdom/ScholarNest/Saya/saya.png"
+dest_files=["res://.godot/imported/saya.png-e7cddd5fe891fa0f941391c8248f54a5.ctex"]
 
 [params]
 

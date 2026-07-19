@@ -1,0 +1,111 @@
+
+illie.png
+size: 2019,946
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon_emerald_01
+  rotate: false
+  xy: 734, 2
+  size: 274, 332
+  orig: 500, 500
+  offset: 101, 36
+  index: -1
+dragon_emerald_02
+  rotate: false
+  xy: 1010, 2
+  size: 271, 332
+  orig: 500, 500
+  offset: 103, 36
+  index: -1
+dragon_emerald_03
+  rotate: false
+  xy: 398, 44
+  size: 334, 328
+  orig: 500, 500
+  offset: 37, 41
+  index: -1
+dragon_emerald_04
+  rotate: false
+  xy: 1685, 614
+  size: 332, 330
+  orig: 500, 500
+  offset: 35, 40
+  index: -1
+dragon_emerald_05
+  rotate: true
+  xy: 1660, 336
+  size: 276, 334
+  orig: 500, 500
+  offset: 97, 34
+  index: -1
+dragon_emerald_06
+  rotate: false
+  xy: 1283, 39
+  size: 271, 334
+  orig: 500, 500
+  offset: 102, 34
+  index: -1
+dragon_emerald_07
+  rotate: true
+  xy: 909, 356
+  size: 277, 335
+  orig: 500, 500
+  offset: 95, 32
+  index: -1
+dragon_emerald_08
+  rotate: true
+  xy: 495, 374
+  size: 256, 412
+  orig: 500, 500
+  offset: 121, 46
+  index: -1
+dragon_emerald_09
+  rotate: true
+  xy: 1556, 82
+  size: 252, 409
+  orig: 500, 500
+  offset: 122, 48
+  index: -1
+dragon_emerald_10
+  rotate: true
+  xy: 1246, 375
+  size: 254, 412
+  orig: 500, 500
+  offset: 120, 46
+  index: -1
+dragon_emerald_11
+  rotate: false
+  xy: 2, 16
+  size: 394, 440
+  orig: 500, 500
+  offset: 51, 4
+  index: -1
+dragon_emerald_12
+  rotate: false
+  xy: 1296, 631
+  size: 387, 313
+  orig: 500, 500
+  offset: 49, 34
+  index: -1
+dragon_emerald_13
+  rotate: false
+  xy: 495, 632
+  size: 399, 312
+  orig: 500, 500
+  offset: 50, 35
+  index: -1
+dragon_emerald_14
+  rotate: false
+  xy: 896, 635
+  size: 398, 309
+  orig: 500, 500
+  offset: 50, 38
+  index: -1
+spr_focus_arrow_0
+  rotate: false
+  xy: 2, 458
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

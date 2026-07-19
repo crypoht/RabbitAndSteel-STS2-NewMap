@@ -1,0 +1,16 @@
+[remap]
+
+importer="spine.atlas"
+type="SpineAtlasResource"
+uid="uid://iwqw55v6lhij"
+path="res://.godot/imported/illie.atlas-c35f6294c54d8bd233a81ed8567edf60.spatlas"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/TheRedDarkhouse/illie/illie.atlas"
+dest_files=["res://.godot/imported/illie.atlas-c35f6294c54d8bd233a81ed8567edf60.spatlas"]
+
+[params]
+
+normal_map_prefix="n"
+specular_map_prefix="s"

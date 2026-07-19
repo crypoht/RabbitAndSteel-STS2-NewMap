@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://d23rm0rwv0c5m"
+path="res://.godot/imported/bella.skel-993ed8f76f4d2757c174fbfbe0c5aceb.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Bella/bella.skel"
+dest_files=["res://.godot/imported/bella.skel-993ed8f76f4d2757c174fbfbe0c5aceb.spskel"]
+
+[params]
+

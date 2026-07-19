@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://dl7xyqm3j4uq"
+path="res://.godot/imported/Kuu.skel-4b25c4ce49225fc5d89e215828fefa26.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/TheRedDarkhouse/Kuu/Kuu.skel"
+dest_files=["res://.godot/imported/Kuu.skel-4b25c4ce49225fc5d89e215828fefa26.spskel"]
+
+[params]
+

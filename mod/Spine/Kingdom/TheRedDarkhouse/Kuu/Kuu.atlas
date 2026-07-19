@@ -1,0 +1,111 @@
+
+Kuu.png
+size: 1895,976
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon_silver_01
+  rotate: false
+  xy: 854, 612
+  size: 241, 362
+  orig: 500, 500
+  offset: 128, 22
+  index: -1
+dragon_silver_02
+  rotate: true
+  xy: 734, 2
+  size: 240, 361
+  orig: 500, 500
+  offset: 127, 23
+  index: -1
+dragon_silver_03
+  rotate: false
+  xy: 1619, 640
+  size: 274, 334
+  orig: 500, 500
+  offset: 85, 52
+  index: -1
+dragon_silver_04
+  rotate: true
+  xy: 1451, 2
+  size: 270, 334
+  orig: 500, 500
+  offset: 83, 51
+  index: -1
+dragon_silver_05
+  rotate: false
+  xy: 1316, 274
+  size: 293, 346
+  orig: 500, 500
+  offset: 121, 38
+  index: -1
+dragon_silver_06
+  rotate: false
+  xy: 1611, 280
+  size: 276, 346
+  orig: 500, 500
+  offset: 134, 38
+  index: -1
+dragon_silver_07
+  rotate: false
+  xy: 1332, 628
+  size: 285, 346
+  orig: 500, 500
+  offset: 129, 38
+  index: -1
+dragon_silver_08
+  rotate: false
+  xy: 1097, 622
+  size: 233, 352
+  orig: 500, 500
+  offset: 131, 27
+  index: -1
+dragon_silver_09
+  rotate: false
+  xy: 1079, 258
+  size: 235, 352
+  orig: 500, 500
+  offset: 130, 27
+  index: -1
+dragon_silver_10
+  rotate: true
+  xy: 1097, 23
+  size: 233, 352
+  orig: 500, 500
+  offset: 131, 27
+  index: -1
+dragon_silver_11
+  rotate: false
+  xy: 734, 244
+  size: 343, 364
+  orig: 500, 500
+  offset: 88, 21
+  index: -1
+dragon_silver_12
+  rotate: true
+  xy: 369, 115
+  size: 366, 363
+  orig: 500, 500
+  offset: 68, 22
+  index: -1
+dragon_silver_13
+  rotate: true
+  xy: 2, 115
+  size: 366, 365
+  orig: 500, 500
+  offset: 60, 21
+  index: -1
+dragon_silver_14
+  rotate: false
+  xy: 490, 610
+  size: 362, 364
+  orig: 500, 500
+  offset: 59, 21
+  index: -1
+spr_focus_arrow_0
+  rotate: true
+  xy: 2, 483
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

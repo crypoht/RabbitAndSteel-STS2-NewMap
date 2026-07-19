@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://cqt1f04eowf1t"
+path="res://.godot/imported/sohko.skel-382b7751b6d84fcc9221999163a7e5a9.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Sohko/sohko.skel"
+dest_files=["res://.godot/imported/sohko.skel-382b7751b6d84fcc9221999163a7e5a9.spskel"]
+
+[params]
+

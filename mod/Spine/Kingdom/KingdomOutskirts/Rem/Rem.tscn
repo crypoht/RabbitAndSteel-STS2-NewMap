@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bpxcodx5jbwx2"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://yke4h66vfu6v" path="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/rem.atlas" id="1_cfty8"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://cgmkg4ixjyhou" path="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/rem.skel" id="2_oa7do"]
+
+[sub_resource type="SpineSkeletonDataResource" id="SpineSkeletonDataResource_6uimv"]
+atlas_res = ExtResource("1_cfty8")
+skeleton_file_res = ExtResource("2_oa7do")
+
+[node name="Rem" type="Node"]
+
+[node name="SpineSprite" type="SpineSprite" parent="."]
+skeleton_data_res = SubResource("SpineSkeletonDataResource_6uimv")
+preview_skin = "Default"
+preview_animation = "power"
+preview_frame = false
+preview_time = 0.0

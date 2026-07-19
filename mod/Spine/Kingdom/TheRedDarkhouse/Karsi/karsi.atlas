@@ -1,0 +1,111 @@
+
+karsi.png
+size: 1575,1190
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dragon_ruby_01
+  rotate: true
+  xy: 1124, 309
+  size: 243, 348
+  orig: 500, 500
+  offset: 119, 38
+  index: -1
+dragon_ruby_02
+  rotate: true
+  xy: 977, 61
+  size: 246, 345
+  orig: 500, 500
+  offset: 119, 39
+  index: -1
+dragon_ruby_03
+  rotate: false
+  xy: 358, 2
+  size: 277, 341
+  orig: 500, 500
+  offset: 87, 48
+  index: -1
+dragon_ruby_04
+  rotate: true
+  xy: 637, 19
+  size: 298, 338
+  orig: 500, 500
+  offset: 82, 48
+  index: -1
+dragon_ruby_05
+  rotate: false
+  xy: 1277, 834
+  size: 296, 354
+  orig: 500, 500
+  offset: 116, 36
+  index: -1
+dragon_ruby_06
+  rotate: true
+  xy: 849, 560
+  size: 272, 351
+  orig: 500, 500
+  offset: 128, 37
+  index: -1
+dragon_ruby_07
+  rotate: true
+  xy: 495, 594
+  size: 238, 352
+  orig: 500, 500
+  offset: 121, 35
+  index: -1
+dragon_ruby_08
+  rotate: true
+  xy: 1202, 554
+  size: 278, 348
+  orig: 500, 500
+  offset: 125, 34
+  index: -1
+dragon_ruby_09
+  rotate: true
+  xy: 422, 347
+  size: 245, 348
+  orig: 500, 500
+  offset: 121, 34
+  index: -1
+dragon_ruby_10
+  rotate: true
+  xy: 772, 319
+  size: 239, 350
+  orig: 500, 500
+  offset: 127, 35
+  index: -1
+dragon_ruby_11
+  rotate: false
+  xy: 2, 345
+  size: 418, 355
+  orig: 500, 500
+  offset: 34, 34
+  index: -1
+dragon_ruby_12
+  rotate: true
+  xy: 2, 6
+  size: 337, 354
+  orig: 500, 500
+  offset: 88, 34
+  index: -1
+dragon_ruby_13
+  rotate: false
+  xy: 899, 834
+  size: 376, 354
+  orig: 500, 500
+  offset: 83, 35
+  index: -1
+dragon_ruby_14
+  rotate: false
+  xy: 495, 834
+  size: 402, 354
+  orig: 500, 500
+  offset: 52, 35
+  index: -1
+spr_focus_arrow_0
+  rotate: false
+  xy: 2, 702
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

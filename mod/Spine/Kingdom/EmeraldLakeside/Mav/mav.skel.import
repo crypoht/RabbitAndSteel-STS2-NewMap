@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://dli8wnr36pbah"
+path="res://.godot/imported/mav.skel-448f318ca0aab3b7d96252caeb3c50f1.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Mav/mav.skel"
+dest_files=["res://.godot/imported/mav.skel-448f318ca0aab3b7d96252caeb3c50f1.spskel"]
+
+[params]
+

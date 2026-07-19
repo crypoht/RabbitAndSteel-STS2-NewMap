@@ -1,0 +1,14 @@
+[remap]
+
+importer="spine.skel"
+type="SpineSkeletonFileResource"
+uid="uid://cuxoqd7fsxbiy"
+path="res://.godot/imported/maxi.skel-e52c3213fcd6302358c670f2dfe34bcd.spskel"
+
+[deps]
+
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Maxi/maxi.skel"
+dest_files=["res://.godot/imported/maxi.skel-e52c3213fcd6302358c670f2dfe34bcd.spskel"]
+
+[params]
+

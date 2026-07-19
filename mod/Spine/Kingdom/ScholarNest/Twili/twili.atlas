@@ -1,0 +1,118 @@
+
+twili.png
+size: 1591,1600
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+b41-(1)
+  rotate: false
+  xy: 894, 1240
+  size: 361, 358
+  orig: 364, 360
+  offset: 2, 1
+  index: -1
+b41-(10)
+  rotate: true
+  xy: 1187, 880
+  size: 358, 350
+  orig: 360, 352
+  offset: 1, 1
+  index: -1
+b41-(11)
+  rotate: true
+  xy: 805, 457
+  size: 360, 357
+  orig: 362, 359
+  offset: 1, 1
+  index: -1
+b41-(12)
+  rotate: true
+  xy: 406, 723
+  size: 382, 397
+  orig: 384, 399
+  offset: 1, 1
+  index: -1
+b41-(13)
+  rotate: false
+  xy: 805, 819
+  size: 380, 397
+  orig: 382, 399
+  offset: 1, 1
+  index: -1
+b41-(14)
+  rotate: true
+  xy: 490, 1218
+  size: 380, 402
+  orig: 382, 404
+  offset: 1, 1
+  index: -1
+b41-(15)
+  rotate: true
+  xy: 2, 723
+  size: 382, 402
+  orig: 384, 404
+  offset: 1, 1
+  index: -1
+b41-(2)
+  rotate: true
+  xy: 2, 2
+  size: 360, 356
+  orig: 362, 358
+  offset: 1, 1
+  index: -1
+b41-(3)
+  rotate: false
+  xy: 1257, 1240
+  size: 332, 358
+  orig: 335, 360
+  offset: 2, 1
+  index: -1
+b41-(4)
+  rotate: false
+  xy: 360, 17
+  size: 332, 344
+  orig: 334, 346
+  offset: 1, 1
+  index: -1
+b41-(5)
+  rotate: false
+  xy: 721, 93
+  size: 343, 362
+  orig: 345, 364
+  offset: 1, 1
+  index: -1
+b41-(6)
+  rotate: false
+  xy: 1164, 99
+  size: 345, 358
+  orig: 347, 360
+  offset: 1, 1
+  index: -1
+b41-(7)
+  rotate: true
+  xy: 2, 364
+  size: 357, 358
+  orig: 359, 360
+  offset: 1, 1
+  index: -1
+b41-(8)
+  rotate: false
+  xy: 362, 363
+  size: 357, 358
+  orig: 359, 360
+  offset: 1, 1
+  index: -1
+b41-(9)
+  rotate: true
+  xy: 1164, 459
+  size: 358, 355
+  orig: 360, 357
+  offset: 1, 1
+  index: -1
+spr_focus_arrow_0
+  rotate: true
+  xy: 2, 1107
+  size: 491, 486
+  orig: 502, 502
+  offset: 6, 8
+  index: -1

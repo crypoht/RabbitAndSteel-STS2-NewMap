@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dvd0oi4h3q3j8"
-path="res://.godot/imported/blush.png-554838642980d192be4b250353ea93b8.ctex"
+uid="uid://djbt5igsvakwj"
+path="res://.godot/imported/ita2.png-2ca66ee29db11ba9983c8ca6db1663d5.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Blush/blush.png"
-dest_files=["res://.godot/imported/blush.png-554838642980d192be4b250353ea93b8.ctex"]
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Pine&Ita/Ita/ita2.png"
+dest_files=["res://.godot/imported/ita2.png-2ca66ee29db11ba9983c8ca6db1663d5.ctex"]
 
 [params]
 

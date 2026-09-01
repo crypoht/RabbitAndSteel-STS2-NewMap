@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cra2xyq57gp4d"
-path="res://.godot/imported/lette.png-c9ae4aa7e12bc2e6dfd18825532b644d.ctex"
+uid="uid://5v061rhkqiy4"
+path="res://.godot/imported/sohko2.png-bf4382ff246626d4d17eaaee76b386a4.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Jay&Lette/Lette/lette.png"
-dest_files=["res://.godot/imported/lette.png-c9ae4aa7e12bc2e6dfd18825532b644d.ctex"]
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Sohko/sohko2.png"
+dest_files=["res://.godot/imported/sohko2.png-bf4382ff246626d4d17eaaee76b386a4.ctex"]
 
 [params]
 

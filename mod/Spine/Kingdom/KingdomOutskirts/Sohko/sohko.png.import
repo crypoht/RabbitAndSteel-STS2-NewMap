@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://4cnhy0pea8ky"
-path="res://.godot/imported/mav.png-81adf328b552e2b919b3dd578fa62710.ctex"
+uid="uid://cxq8vqbf0dvnh"
+path="res://.godot/imported/sohko.png-814d57ff93c88d378b8d0eca3935777f.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Mav/mav.png"
-dest_files=["res://.godot/imported/mav.png-81adf328b552e2b919b3dd578fa62710.ctex"]
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Sohko/sohko.png"
+dest_files=["res://.godot/imported/sohko.png-814d57ff93c88d378b8d0eca3935777f.ctex"]
 
 [params]
 

@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bb4bjgrqf2sty"
-path="res://.godot/imported/jay.png-d9865d372a2fb3a83fe1ae6d1927700a.ctex"
+uid="uid://cpnqauawo0cqs"
+path="res://.godot/imported/bella2.png-5e85251e4e55ad951d80d6a270f4e171.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Jay&Lette/Jay/jay.png"
-dest_files=["res://.godot/imported/jay.png-d9865d372a2fb3a83fe1ae6d1927700a.ctex"]
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Bella/bella2.png"
+dest_files=["res://.godot/imported/bella2.png-5e85251e4e55ad951d80d6a270f4e171.ctex"]
 
 [params]
 

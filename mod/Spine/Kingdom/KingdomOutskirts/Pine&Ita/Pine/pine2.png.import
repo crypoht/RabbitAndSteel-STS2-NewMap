@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bvnufeik2ceyd"
-path="res://.godot/imported/avy_big4.png-f730dbbb3161106b2ea6c376ea63b586.ctex"
+uid="uid://c4ykh3rhijs7j"
+path="res://.godot/imported/pine2.png-15e3cf61a0934e450cd0a1ddbbbc8321.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://mod/Spine/Kingdom/EmeraldLakeside/Avy_big/avy_big4.png"
-dest_files=["res://.godot/imported/avy_big4.png-f730dbbb3161106b2ea6c376ea63b586.ctex"]
+source_file="res://mod/Spine/Kingdom/KingdomOutskirts/Pine&Ita/Pine/pine2.png"
+dest_files=["res://.godot/imported/pine2.png-15e3cf61a0934e450cd0a1ddbbbc8321.ctex"]
 
 [params]
 

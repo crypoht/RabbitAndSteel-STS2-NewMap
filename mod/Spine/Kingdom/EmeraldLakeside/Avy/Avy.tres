@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://ch5efikerf6gl"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://ldx43c6yib07" path="res://mod/Spine/Kingdom/EmeraldLakeside/Avy/avy.atlas" id="1_6vmvw"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://bnos2a0lk2dmo" path="res://mod/Spine/Kingdom/EmeraldLakeside/Avy/avy.skel" id="2_g7giv"]
+
+[resource]
+atlas_res = ExtResource("1_6vmvw")
+skeleton_file_res = ExtResource("2_g7giv")

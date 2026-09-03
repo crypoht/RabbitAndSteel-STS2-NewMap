@@ -1,6 +1,8 @@
 using Godot;
+using MegaCrit.Sts2.Core.Models;
 using MegaCrit.Sts2.Core.Nodes.Screens.Map;
 using MegaCrit.Sts2.Core.Runs;
+using RabbitAndSteelNewMap.Scripts.Encounter;
 using STS2RitsuLib.Patching.Models;
 
 namespace RabbitAndSteelNewMap.Scripts.Map;
@@ -54,5 +56,23 @@ public sealed class CustomMapNodeIconPatch : IPatchMethod
             return null;
 
         return ResourceLoader.Load<Texture2D>(path, null, ResourceLoader.CacheMode.Reuse);
+    }
+}
+
+public sealed class AvyBossMapNodePathPatch : IPatchMethod
+{
+    public static string PatchId => "rabbit_avy_boss_static_map_icon";
+    public static bool IsCritical => false;
+    public static string Description => "Use Avy's static boss map icon";
+    public static ModPatchTarget[] GetTargets() =>
+        [new(typeof(EncounterModel), "get_BossNodePath")];
+
+    public static bool Prefix(EncounterModel __instance, ref string __result)
+    {
+        if (__instance is not AvyBoss)
+            return true;
+
+        __result = AvyBoss.BossNodeBasePath;
+        return false;
     }
 }

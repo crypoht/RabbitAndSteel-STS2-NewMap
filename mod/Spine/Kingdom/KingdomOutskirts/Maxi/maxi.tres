@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://d4sgrwbwjqts"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://bb7k6roequf1g" path="res://mod/Spine/Kingdom/KingdomOutskirts/Maxi/maxi.atlas" id="1_nlhac"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://cuxoqd7fsxbiy" path="res://mod/Spine/Kingdom/KingdomOutskirts/Maxi/maxi.skel" id="2_3vdjp"]
+
+[resource]
+atlas_res = ExtResource("1_nlhac")
+skeleton_file_res = ExtResource("2_3vdjp")

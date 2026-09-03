@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://dq45mt27lbv3i"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://o81ybesayjfk" path="res://mod/Spine/Kingdom/EmeraldLakeside/Blush/blush.atlas" id="1_sq83i"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://dq0aevkr46vt6" path="res://mod/Spine/Kingdom/EmeraldLakeside/Blush/blush.skel" id="2_u57ff"]
+
+[resource]
+atlas_res = ExtResource("1_sq83i")
+skeleton_file_res = ExtResource("2_u57ff")

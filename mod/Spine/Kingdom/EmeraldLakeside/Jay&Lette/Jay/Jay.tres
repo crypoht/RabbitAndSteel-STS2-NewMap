@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://n853vq445dey"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://dc70o1mxpx0vh" path="res://mod/Spine/Kingdom/EmeraldLakeside/Jay&Lette/Jay/jay.atlas" id="1_uuuf7"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://bcaead5otoofw" path="res://mod/Spine/Kingdom/EmeraldLakeside/Jay&Lette/Jay/jay.skel" id="2_mx75j"]
+
+[resource]
+atlas_res = ExtResource("1_uuuf7")
+skeleton_file_res = ExtResource("2_mx75j")

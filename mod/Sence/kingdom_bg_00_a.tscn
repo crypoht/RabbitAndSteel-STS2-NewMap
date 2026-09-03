@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://bpobglnp12hts"]
 
-[ext_resource type="Texture2D" path="res://mod/Iamge/KingdomOutskirts.png" id="1_gte4i"]
+[ext_resource type="Texture2D" uid="uid://dmopal0nbql2e" path="res://mod/Iamge/background/KingdomOutskirts.png" id="1_gte4i"]
 
 [node name="kindom" type="TextureRect"]
 texture = ExtResource("1_gte4i")

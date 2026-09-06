@@ -1,8 +1,8 @@
-[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://bu3x5fnepa0js"]
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://dk66v11yffgiw"]
 
-[ext_resource type="SpineAtlasResource" uid="uid://d0he38o6piyxq" path="res://mod/Spine/Kingdom/KingdomOutskirts/Bella/bella.atlas" id="1_iv0px"]
-[ext_resource type="SpineSkeletonFileResource" uid="uid://b668bimn11ren" path="res://mod/Spine/Kingdom/KingdomOutskirts/Bella/bella.skel" id="2_kqw46"]
+[ext_resource type="SpineAtlasResource" uid="uid://dtmm5lmn0crxw" path="res://mod/Spine/Kingdom/KingdomOutskirts/Bella/bella.atlas" id="1_14ime"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://cfdndhlwkfqs1" path="res://mod/Spine/Kingdom/KingdomOutskirts/Bella/bella.skel" id="2_b8aom"]
 
 [resource]
-atlas_res = ExtResource("1_iv0px")
-skeleton_file_res = ExtResource("2_kqw46")
+atlas_res = ExtResource("1_14ime")
+skeleton_file_res = ExtResource("2_b8aom")

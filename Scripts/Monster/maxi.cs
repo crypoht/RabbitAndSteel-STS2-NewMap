@@ -30,7 +30,7 @@ public sealed class Maxi : ModMonsterTemplate
 
     public override int MaxInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 36, 33);
 
-    public override MonsterAssetProfile AssetProfile => new("res://mod/Monster/maxi.tscn");
+    public override MonsterAssetProfile AssetProfile => new("res://mod/Monster/Maxi.tscn");
 
     protected override NCreatureVisuals? TryCreateCreatureVisuals()
     {

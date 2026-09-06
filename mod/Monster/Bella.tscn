@@ -1,7 +1,7 @@
 [gd_scene load_steps=3 format=3 uid="uid://c2mege2npwtfx"]
 
 [ext_resource type="Script" uid="uid://cjx3b7bsiw3my" path="res://Scripts/Nodes/MaxiCreatureVisuals.cs" id="1_xleye"]
-[ext_resource type="SpineSkeletonDataResource" uid="uid://bu3x5fnepa0js" path="res://mod/Spine/Kingdom/KingdomOutskirts/Bella/bella.tres" id="2_wtwpl"]
+[ext_resource type="SpineSkeletonDataResource" uid="uid://dk66v11yffgiw" path="res://mod/Spine/Kingdom/KingdomOutskirts/Bella/Bella.tres" id="2_wtwpl"]
 
 [node name="SampleMonsterVisuals2" type="Node2D"]
 scale = Vector2(1.3, 1.3)

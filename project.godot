@@ -10,10 +10,18 @@ config_version=5
 
 [application]
 
-config/name="RNS_Map"
-config/features=PackedStringArray("4.5", "C#", "Forward Plus")
+config/name="rabbit_and_steel_new_map"
+config/features=PackedStringArray("4.5", "C#", "Mobile")
 config/icon="res://icon.svg"
 
 [dotnet]
 
-project/assembly_name="RabbitAndSteelNewMap"
+project/assembly_name="rabbit_and_steel_new_map"
+
+[editor]
+
+export/convert_text_resources_to_binary=false
+
+[rendering]
+
+renderer/rendering_method="mobile"

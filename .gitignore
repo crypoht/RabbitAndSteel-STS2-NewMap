@@ -9,4 +9,16 @@
 /rabbit-and-steel-new-map.json
 /rabbit_and_steel_new_map.json
 /RabbitAndSteelNewMap.csproj
+/rabbit_and_steel_new_map.csproj
+*.sln
 *.import
+*.pck
+*.sln
+*.csproj
+*.import
+*.pck
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.uid

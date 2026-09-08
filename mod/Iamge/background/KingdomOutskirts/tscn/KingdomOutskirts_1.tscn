@@ -1,0 +1,20 @@
+[gd_scene load_steps=5 format=3 uid="uid://dfqroyiu21wlr"]
+
+[ext_resource type="Texture2D" uid="uid://dyq8pg2lujx2b" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_keep_0.png" id="1_plpdq"]
+[ext_resource type="Texture2D" uid="uid://cxk7kgjv82n6g" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_keep_1.png" id="2_j5nqv"]
+[ext_resource type="Texture2D" uid="uid://v5b5cx7s52k6" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_keep_2.png" id="3_618bn"]
+[ext_resource type="Texture2D" uid="uid://v7hrb0ee61mc" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_keep_3.png" id="4_nkcyn"]
+
+[node name="KingdomOutskirts1" type="Node2D"]
+
+[node name="SprOutskirtsKeep0" type="Sprite2D" parent="."]
+texture = ExtResource("1_plpdq")
+
+[node name="SprOutskirtsKeep1" type="Sprite2D" parent="."]
+texture = ExtResource("2_j5nqv")
+
+[node name="SprOutskirtsKeep2" type="Sprite2D" parent="."]
+texture = ExtResource("3_618bn")
+
+[node name="SprOutskirtsKeep3" type="Sprite2D" parent="."]
+texture = ExtResource("4_nkcyn")

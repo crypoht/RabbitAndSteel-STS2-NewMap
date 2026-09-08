@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://bgsr85denu8ob"]
+
+[ext_resource type="Texture2D" uid="uid://cibmiv8kfexed" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_mountain_1.png" id="1_62g4a"]
+
+[node name="KingdomOutskirts3c" type="Node2D"]
+
+[node name="SprOutskirtsMountain1" type="Sprite2D" parent="."]
+texture = ExtResource("1_62g4a")

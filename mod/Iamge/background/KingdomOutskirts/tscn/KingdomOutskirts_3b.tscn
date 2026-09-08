@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://dkltviy8ki0rh"]
+
+[ext_resource type="Texture2D" uid="uid://ct4e81yrhxtte" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_mountain_0.png" id="1_r4d2c"]
+
+[node name="KingdomOutskirts3b" type="Node2D"]
+
+[node name="SprOutskirtsMountain0" type="Sprite2D" parent="."]
+texture = ExtResource("1_r4d2c")
+flip_h = true

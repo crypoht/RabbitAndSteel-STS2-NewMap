@@ -1,33 +1,282 @@
-[gd_scene load_steps=3 format=3 uid="uid://svm63gv00a55"]
+[gd_scene load_steps=28 format=3 uid="uid://svm63gv00a55"]
 
 [ext_resource type="Script" uid="uid://b1vg1dhy88ubc" path="res://Scripts/Background/ModCombatBackground.cs" id="1_background"]
+[ext_resource type="Texture2D" uid="uid://bsvrypmclxutm" path="res://mod/Iamge/background/KingdomOutskirts/backcolor.png" id="2_bc4ci"]
 [ext_resource type="Texture2D" uid="uid://dmopal0nbql2e" path="res://mod/Iamge/background/KingdomOutskirts.png" id="2_texture"]
+[ext_resource type="Texture2D" uid="uid://dpi5iurtj6wdg" path="res://mod/Iamge/background/KingdomOutskirts/spr_green_grass_0.png" id="3_amc2y"]
+[ext_resource type="Texture2D" uid="uid://thame7shxn55" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_rock2_1.png" id="3_cnsgp"]
+[ext_resource type="PackedScene" uid="uid://do0lpfu3v0v51" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_0a.tscn" id="3_uvrd2"]
+[ext_resource type="Texture2D" uid="uid://ug0xcgwmv5ak" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_pillar2_0.png" id="4_e0e2e"]
+[ext_resource type="Texture2D" uid="uid://c36nomo3y4md8" path="res://mod/Iamge/background/KingdomOutskirts/spr_cloud_0.png" id="4_i1bs7"]
+[ext_resource type="PackedScene" uid="uid://dekhavskhn0o0" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_0c.tscn" id="4_mqcrk"]
+[ext_resource type="Texture2D" uid="uid://vqy1ot41j4cq" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_moon_0.png" id="5_8r0kr"]
+[ext_resource type="PackedScene" uid="uid://dr02mwt5ewcmf" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_0b.tscn" id="5_ktyqi"]
+[ext_resource type="PackedScene" uid="uid://dfqroyiu21wlr" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_1.tscn" id="6_ajrkq"]
+[ext_resource type="PackedScene" uid="uid://g8ke6bjpuyus" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_2a.tscn" id="7_0stnn"]
+[ext_resource type="PackedScene" uid="uid://dsfapp6whx5ln" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_2b.tscn" id="8_3yx6y"]
+[ext_resource type="PackedScene" uid="uid://cpjdigtgoa3aa" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_3a.tscn" id="9_pxfbi"]
+[ext_resource type="PackedScene" uid="uid://dkltviy8ki0rh" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_3b.tscn" id="10_lnslk"]
+[ext_resource type="PackedScene" uid="uid://dgall76ssui54" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_2c.tscn" id="11_cnsgp"]
+[ext_resource type="PackedScene" uid="uid://bgsr85denu8ob" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_3c.tscn" id="11_khjji"]
+[ext_resource type="PackedScene" uid="uid://dy0tloxvjlclx" path="res://mod/Iamge/background/KingdomOutskirts/tscn/KingdomOutskirts_3d.tscn" id="12_cnsgp"]
+[ext_resource type="Texture2D" uid="uid://bbtcgovktkm40" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_pillar_0.png" id="15_cnsgp"]
+[ext_resource type="Texture2D" uid="uid://b6nmgpyliw30v" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_rock2_2.png" id="16_k6j27"]
+[ext_resource type="Texture2D" uid="uid://ckavchtsky0m" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_rock_0.png" id="18_amc2y"]
+[ext_resource type="Texture2D" uid="uid://bdsv0g7dxlat0" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_rock2_0.png" id="20_qn5s7"]
+[ext_resource type="Texture2D" uid="uid://kh4t7hk6157c" path="res://mod/Iamge/background/KingdomOutskirts/spr_flare_16_0.png" id="21_k6j27"]
+[ext_resource type="Texture2D" uid="uid://dsxg7vq0wou3r" path="res://mod/Iamge/background/KingdomOutskirts/spr_light_1.png" id="22_31vvv"]
+[ext_resource type="Texture2D" uid="uid://cm7iv2r4gp04q" path="res://mod/Iamge/background/KingdomOutskirts/spr_star_16_0.png" id="24_31vvv"]
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_khjji"]
 
 [node name="KingdomOutskirtsBackground" type="Control"]
 layout_mode = 3
 anchors_preset = 0
+offset_top = -100.0
+offset_bottom = -100.0
 script = ExtResource("1_background")
+
+[node name="Backcolor" type="Sprite2D" parent="."]
+modulate = Color(0.7896537, 0.8248587, 0.9491231, 1)
+texture = ExtResource("2_bc4ci")
+
+[node name="SprGreenGrass0" type="Sprite2D" parent="."]
+position = Vector2(16, 499)
+scale = Vector2(14.800781, 2.8007815)
+texture = ExtResource("3_amc2y")
+
+[node name="SprOutskirtsPillar20" type="Sprite2D" parent="."]
+modulate = Color(0.22911215, 0.22911215, 0.22911215, 1)
+position = Vector2(-49.662537, 217.99997)
+rotation = 1.5707964
+scale = Vector2(1, 13.049791)
+texture = ExtResource("4_e0e2e")
+
+[node name="SprOutskirtsRock21" type="Sprite2D" parent="."]
+modulate = Color(0.6718428, 0.69751215, 0.7940313, 0.6431373)
+position = Vector2(-371.00003, 670)
+scale = Vector2(10.73828, 2.3652344)
+texture = ExtResource("3_cnsgp")
+flip_v = true
 
 [node name="Layer_00" type="Control" parent="."]
 unique_name_in_owner = true
 anchors_preset = 0
 
-[node name="Visual" type="TextureRect" parent="Layer_00"]
-layout_mode = 0
-anchor_left = 0.5
-anchor_top = 0.5
-anchor_right = 0.5
-anchor_bottom = 0.5
-offset_left = -1440.0
-offset_top = -675.0
-offset_right = 1440.0
-offset_bottom = 675.0
-grow_horizontal = 2
-grow_vertical = 2
-texture = ExtResource("2_texture")
-expand_mode = 1
-stretch_mode = 3
+[node name="KingdomOutskirts0a" parent="Layer_00" instance=ExtResource("3_uvrd2")]
+modulate = Color(0.28627452, 0.28627452, 0.3137255, 1)
+position = Vector2(-32, -9)
+
+[node name="KingdomOutskirts0c" parent="Layer_00" instance=ExtResource("4_mqcrk")]
+modulate = Color(0.19215687, 0.1882353, 0.22352941, 1)
+position = Vector2(551, 59)
+scale = Vector2(0.54, 0.54)
+
+[node name="KingdomOutskirts0b" parent="Layer_00" instance=ExtResource("5_ktyqi")]
+modulate = Color(0.20392157, 0.20784314, 0.25882354, 1)
+position = Vector2(448, 83)
+scale = Vector2(0.5, 0.5)
 
 [node name="Layer_01" type="Control" parent="."]
 unique_name_in_owner = true
 anchors_preset = 0
+
+[node name="KingdomOutskirts2c2" parent="Layer_01" instance=ExtResource("11_cnsgp")]
+modulate = Color(0.19215687, 0.1882353, 0.22352941, 1)
+position = Vector2(-490.00006, 76)
+rotation = -2.693043
+scale = Vector2(1.115, 1.115)
+
+[node name="SprOutskirtsMoon0" type="Sprite2D" parent="Layer_01"]
+position = Vector2(575, -308.00003)
+scale = Vector2(0.695, 0.695)
+texture = ExtResource("5_8r0kr")
+
+[node name="KingdomOutskirts1" parent="Layer_01" instance=ExtResource("6_ajrkq")]
+position = Vector2(228, -96)
+scale = Vector2(1.225, 1.225)
+
+[node name="Layer_02" type="Control" parent="."]
+anchors_preset = 0
+
+[node name="SprOutskirtsRock0" type="Sprite2D" parent="Layer_02"]
+modulate = Color(0.23529412, 0.23921569, 0.3019608, 1)
+position = Vector2(-839.75, -14)
+scale = Vector2(1.9208988, 1)
+texture = ExtResource("18_amc2y")
+
+[node name="KingdomOutskirts2a" parent="Layer_02" instance=ExtResource("7_0stnn")]
+modulate = Color(0.19215687, 0.1882353, 0.22352941, 1)
+position = Vector2(364, 99)
+scale = Vector2(0.5, 0.5)
+
+[node name="KingdomOutskirts2b" parent="Layer_02" instance=ExtResource("8_3yx6y")]
+modulate = Color(0.19215687, 0.1882353, 0.22352941, 1)
+position = Vector2(-349, 66)
+scale = Vector2(0.5, 0.5)
+
+[node name="KingdomOutskirts2c" parent="Layer_02" instance=ExtResource("11_cnsgp")]
+modulate = Color(0.19215687, 0.1882353, 0.22352941, 1)
+position = Vector2(-214.00003, 66)
+rotation = -0.7347836
+scale = Vector2(1.115, 1.115)
+
+[node name="SprOutskirtsRock21" type="Sprite2D" parent="Layer_02"]
+modulate = Color(0.20392157, 0.20784314, 0.25882354, 1)
+position = Vector2(896, 88)
+scale = Vector2(1.6005859, 0.45166016)
+texture = ExtResource("20_qn5s7")
+
+[node name="SprOutskirtsRock20" type="Sprite2D" parent="Layer_02"]
+modulate = Color(0.20392157, 0.20784314, 0.25882354, 1)
+position = Vector2(-195, 102)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("20_qn5s7")
+
+[node name="Layer_03" type="Control" parent="."]
+anchors_preset = 0
+
+[node name="KingdomOutskirts3c" parent="Layer_03" instance=ExtResource("11_khjji")]
+modulate = Color(0.20392157, 0.20784314, 0.25882354, 1)
+position = Vector2(-437, 99)
+scale = Vector2(0.5, 0.5)
+
+[node name="KingdomOutskirts3d" parent="Layer_03" instance=ExtResource("12_cnsgp")]
+modulate = Color(0.20392157, 0.20784314, 0.25882354, 1)
+position = Vector2(881, 74)
+scale = Vector2(0.5, 0.5)
+
+[node name="KingdomOutskirts3a" parent="Layer_03" instance=ExtResource("9_pxfbi")]
+modulate = Color(0.20392157, 0.20784314, 0.25882354, 1)
+position = Vector2(-335, 102)
+scale = Vector2(0.5, 0.5)
+
+[node name="KingdomOutskirts3b" parent="Layer_03" instance=ExtResource("10_lnslk")]
+modulate = Color(0.19215687, 0.1882353, 0.22352941, 1)
+position = Vector2(617, 45)
+scale = Vector2(0.75, 0.75)
+
+[node name="KingdomOutskirts3d2" parent="Layer_03" instance=ExtResource("12_cnsgp")]
+modulate = Color(0.19215687, 0.1882353, 0.22352941, 1)
+position = Vector2(-821.00006, 42)
+scale = Vector2(0.75, 0.75)
+
+[node name="SprOutskirtsPillar0" type="Sprite2D" parent="Layer_03"]
+visible = false
+modulate = Color(0.20392157, 0.20784314, 0.25882354, 1)
+position = Vector2(-540, 247.00003)
+rotation = -0.2443461
+scale = Vector2(1.8227578, 3.3928905)
+texture = ExtResource("15_cnsgp")
+
+[node name="Layer_04" type="Control" parent="."]
+anchors_preset = 0
+
+[node name="SprOutskirtsRock22" type="Sprite2D" parent="Layer_04"]
+modulate = Color(0.20392157, 0.20784314, 0.25882354, 0.9098039)
+position = Vector2(931.99994, 596)
+scale = Vector2(3.7441406, 1.5390625)
+texture = ExtResource("16_k6j27")
+
+[node name="SprOutskirtsRock0" type="Sprite2D" parent="Layer_04"]
+modulate = Color(0.20392157, 0.20784314, 0.25882354, 0.9098039)
+position = Vector2(-759, 315)
+scale = Vector2(4.8784175, 2.649414)
+texture = ExtResource("18_amc2y")
+
+[node name="Visual" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -853.0
+offset_top = -3573.0
+offset_right = 2027.0
+offset_bottom = -2223.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(1.575, 1.575)
+texture = ExtResource("2_texture")
+expand_mode = 1
+stretch_mode = 3
+
+[node name="Layer_05" type="Control" parent="."]
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="SprFlare162" type="Sprite2D" parent="Layer_05"]
+position = Vector2(-710, -258)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare161" type="Sprite2D" parent="Layer_05"]
+position = Vector2(-1029, -154)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare160" type="Sprite2D" parent="Layer_05"]
+position = Vector2(-1026, -279)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare163" type="Sprite2D" parent="Layer_05"]
+position = Vector2(-274, -343)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare164" type="Sprite2D" parent="Layer_05"]
+position = Vector2(-611, -387)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare165" type="Sprite2D" parent="Layer_05"]
+position = Vector2(515, -131)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare166" type="Sprite2D" parent="Layer_05"]
+position = Vector2(733, -249)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare167" type="Sprite2D" parent="Layer_05"]
+position = Vector2(352, -335)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare168" type="Sprite2D" parent="Layer_05"]
+position = Vector2(59, -421)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare169" type="Sprite2D" parent="Layer_05"]
+position = Vector2(-205, -89)
+texture = ExtResource("21_k6j27")
+
+[node name="SprFlare160" type="Sprite2D" parent="."]
+position = Vector2(-626, -34)
+texture = ExtResource("21_k6j27")
+
+[node name="SprLight1" type="Sprite2D" parent="."]
+modulate = Color(1, 1, 1, 0.105882354)
+position = Vector2(417.88034, -176.95215)
+rotation = 0.57072264
+scale = Vector2(0.9101053, 0.8580388)
+skew = -0.46949357
+texture = ExtResource("22_31vvv")
+flip_v = true
+
+[node name="cloud" type="CPUParticles2D" parent="."]
+material = SubResource("CanvasItemMaterial_khjji")
+position = Vector2(-2218, -401)
+scale = Vector2(10, 3)
+amount = 6
+texture = ExtResource("4_i1bs7")
+lifetime = 120.0
+preprocess = 100.0
+local_coords = true
+gravity = Vector2(1, 0)
+scale_amount_min = 0.5
+scale_amount_max = 0.5
+anim_offset_max = 1.0
+
+[node name="stardot" type="CPUParticles2D" parent="."]
+position = Vector2(-89, 744)
+texture = ExtResource("24_31vvv")
+emission_shape = 3
+emission_rect_extents = Vector2(1500, 1)
+gravity = Vector2(900, -900)

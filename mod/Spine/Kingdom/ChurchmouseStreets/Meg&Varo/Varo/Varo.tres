@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://8nre0afqn5gu"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://djmmj1qoq2r6b" path="res://mod/Spine/Kingdom/ChurchmouseStreets/Meg&Varo/Varo/varo.atlas" id="1_1ilfg"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://qerbylgccieg" path="res://mod/Spine/Kingdom/ChurchmouseStreets/Meg&Varo/Varo/varo.skel" id="2_25rvn"]
+
+[resource]
+atlas_res = ExtResource("1_1ilfg")
+skeleton_file_res = ExtResource("2_25rvn")

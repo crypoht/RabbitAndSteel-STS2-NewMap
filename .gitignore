@@ -19,3 +19,6 @@
 *.sln.docstates
 *.uid
 *.cs.uid
+
+# Temporary files created while Godot/editor DLLs are in use
+/bin/windows/~*

@@ -40,7 +40,7 @@ public sealed class AvyBig : ModMonsterTemplate
         AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 151, 134);
 
     public override MonsterAssetProfile AssetProfile =>
-        new("res://mod/Monster/AvyBig.tscn");
+        new("res://mod/Monster/Avybig.tscn");
 
     protected override NCreatureVisuals? TryCreateCreatureVisuals() =>
         RitsuGodotNodeFactories.CreateFromScenePath<NCreatureVisuals>(

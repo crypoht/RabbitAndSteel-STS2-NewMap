@@ -1,0 +1,44 @@
+[gd_scene load_steps=5 format=3 uid="uid://csjirm6ph6q3u"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://iwqw55v6lhij" path="res://mod/Spine/Kingdom/TheRedDarkhouse/illie/illie.atlas" id="1_atlas"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://sfn13y7m6t1o" path="res://mod/Spine/Kingdom/TheRedDarkhouse/illie/illie.skel" id="2_skel"]
+[ext_resource type="Script" uid="uid://cjx3b7bsiw3my" path="res://Scripts/Nodes/MaxiCreatureVisuals.cs" id="3_script"]
+
+[sub_resource type="SpineSkeletonDataResource" id="SpineSkeletonDataResource_illie"]
+atlas_res = ExtResource("1_atlas")
+skeleton_file_res = ExtResource("2_skel")
+
+[node name="IllieVisuals" type="Node2D"]
+scale = Vector2(1.3, 1.3)
+script = ExtResource("3_script")
+
+[node name="Visuals" type="SpineSprite" parent="."]
+skeleton_data_res = SubResource("SpineSkeletonDataResource_illie")
+preview_skin = "default"
+preview_animation = "idle_loop"
+preview_frame = false
+preview_time = 0.0
+unique_name_in_owner = true
+position = Vector2(0, -120)
+scale = Vector2(-0.35, 0.35)
+
+[node name="Bounds" type="Control" parent="."]
+unique_name_in_owner = true
+layout_mode = 3
+anchors_preset = 0
+offset_left = -130.0
+offset_top = -260.0
+offset_right = 130.0
+mouse_filter = 2
+
+[node name="IntentPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -210)
+
+[node name="CenterPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(0, -117.333336)
+
+[node name="TalkPos" type="Marker2D" parent="."]
+unique_name_in_owner = true
+position = Vector2(-51, -175)

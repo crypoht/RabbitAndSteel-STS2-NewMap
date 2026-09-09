@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://b1v7hw472hakn"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://c25i4a3eg5ek2" path="res://mod/Spine/Kingdom/ChurchmouseStreets/Matti/00Pine_small/pine_small.atlas" id="1_aht5r"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://cnk3xwfu2g5id" path="res://mod/Spine/Kingdom/ChurchmouseStreets/Matti/00Pine_small/pine_small.skel" id="2_gu0xc"]
+
+[resource]
+atlas_res = ExtResource("1_aht5r")
+skeleton_file_res = ExtResource("2_gu0xc")

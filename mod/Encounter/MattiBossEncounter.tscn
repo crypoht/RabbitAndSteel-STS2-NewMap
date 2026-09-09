@@ -1,0 +1,37 @@
+[gd_scene format=3]
+
+[node name="Encounter" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="matti" type="Marker2D" parent="."]
+position = Vector2(1430, 690)
+
+[node name="matti_high" type="Marker2D" parent="."]
+position = Vector2(1430, 560)
+
+[node name="aus_small" type="Marker2D" parent="."]
+position = Vector2(1430, 290)
+
+[node name="ita_small" type="Marker2D" parent="."]
+position = Vector2(1641, 392)
+
+[node name="meg_small" type="Marker2D" parent="."]
+position = Vector2(1699, 620)
+
+[node name="nimi_small" type="Marker2D" parent="."]
+position = Vector2(1547, 803)
+
+[node name="orn_small" type="Marker2D" parent="."]
+position = Vector2(1313, 803)
+
+[node name="pine_small" type="Marker2D" parent="."]
+position = Vector2(1161, 620)
+
+[node name="varo_small" type="Marker2D" parent="."]
+position = Vector2(1219, 392)

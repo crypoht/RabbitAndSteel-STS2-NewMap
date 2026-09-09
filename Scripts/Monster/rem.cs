@@ -30,7 +30,7 @@ public sealed class Rem : ModMonsterTemplate
 
     public override int MaxInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 62, 56);
 
-    public override MonsterAssetProfile AssetProfile => new("res://mod/Monster/rem.tscn");
+    public override MonsterAssetProfile AssetProfile => new("res://mod/Monster/Rem.tscn");
 
     protected override NCreatureVisuals? TryCreateCreatureVisuals()
     {

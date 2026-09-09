@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://11kgts2mvwsd"]
+[gd_scene load_steps=3 format=3 uid="uid://bf0o3it5jdtpw"]
 
 [ext_resource type="Script" uid="uid://cjx3b7bsiw3my" path="res://Scripts/Nodes/MaxiCreatureVisuals.cs" id="1_xleye"]
 [ext_resource type="SpineSkeletonDataResource" uid="uid://ct7b3qgwst5oy" path="res://mod/Spine/Kingdom/KingdomOutskirts/Maxi/Maxi.tres" id="2_j2prm"]

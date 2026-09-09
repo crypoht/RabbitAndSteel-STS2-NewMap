@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://dfjpry7vsoeiw"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://p84rcrxo5bjq" path="res://mod/Spine/Kingdom/ChurchmouseStreets/Nimi&Aus/Nimi/nimi.atlas" id="1_y8gyq"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://du5pv3cj8yf6y" path="res://mod/Spine/Kingdom/ChurchmouseStreets/Nimi&Aus/Nimi/nimi.skel" id="2_c1tes"]
+
+[resource]
+atlas_res = ExtResource("1_y8gyq")
+skeleton_file_res = ExtResource("2_c1tes")

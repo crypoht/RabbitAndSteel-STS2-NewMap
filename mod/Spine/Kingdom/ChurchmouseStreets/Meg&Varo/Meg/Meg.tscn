@@ -1,14 +1,19 @@
-[gd_scene load_steps=3 format=3 uid="uid://dsafgikn7ne1e"]
+[gd_scene load_steps=5 format=3 uid="uid://drvhu2d4vho47"]
 
-[ext_resource type="Script" uid="uid://cjx3b7bsiw3my" path="res://Scripts/Nodes/MaxiCreatureVisuals.cs" id="1_xleye"]
-[ext_resource type="SpineSkeletonDataResource" uid="uid://bdaj5vcfson85" path="res://mod/Spine/Kingdom/KingdomOutskirts/Rem/Rem.tres" id="2_eobtg"]
+[ext_resource type="SpineAtlasResource" uid="uid://b3wq306t3bt6c" path="res://mod/Spine/Kingdom/ChurchmouseStreets/Meg&Varo/Meg/meg.atlas" id="1_atlas"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://dmqhpprsvlqem" path="res://mod/Spine/Kingdom/ChurchmouseStreets/Meg&Varo/Meg/meg.skel" id="2_skel"]
+[ext_resource type="Script" uid="uid://cjx3b7bsiw3my" path="res://Scripts/Nodes/MaxiCreatureVisuals.cs" id="3_script"]
 
-[node name="SampleMonsterVisuals2" type="Node2D"]
+[sub_resource type="SpineSkeletonDataResource" id="SpineSkeletonDataResource_meg"]
+atlas_res = ExtResource("1_atlas")
+skeleton_file_res = ExtResource("2_skel")
+
+[node name="MegVisuals" type="Node2D"]
 scale = Vector2(1.3, 1.3)
-script = ExtResource("1_xleye")
+script = ExtResource("3_script")
 
 [node name="Visuals" type="SpineSprite" parent="."]
-skeleton_data_res = ExtResource("2_eobtg")
+skeleton_data_res = SubResource("SpineSkeletonDataResource_meg")
 preview_skin = "default"
 preview_animation = "idle_loop"
 preview_frame = false

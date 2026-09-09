@@ -1,7 +1,7 @@
-[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://c63fc5nur0sdg"]
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://b3nmndixxgbab"]
 
-[ext_resource type="SpineAtlasResource" uid="uid://8lmcy2113ynq" path="res://mod/Spine/Kingdom/KingdomOutskirts/Sohko/sohko.atlas" id="1_yoqa8"]
-[ext_resource type="SpineSkeletonFileResource" uid="uid://c75e5i8v3h0t7" path="res://mod/Spine/Kingdom/KingdomOutskirts/Sohko/sohko.skel" id="2_gyawg"]
+[ext_resource type="SpineAtlasResource" uid="uid://dsc0ybejulp07" path="res://mod/Spine/Kingdom/KingdomOutskirts/Sohko/sohko.atlas" id="1_yoqa8"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://pr56sbjf88pu" path="res://mod/Spine/Kingdom/KingdomOutskirts/Sohko/sohko.skel" id="2_gyawg"]
 
 [resource]
 atlas_res = ExtResource("1_yoqa8")

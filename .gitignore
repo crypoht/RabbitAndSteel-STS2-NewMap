@@ -2,10 +2,20 @@
 .godot/
 /android/
 
-# Local-only technical notes
+# Local-only files and directories
 /docs-local/
 /LOCAL_TECH_NOTES.md
-/rabbit-and-steel-new-map.csproj
-/rabbit-and-steel-new-map.json
-/rabbit_and_steel_new_map.json
-/RabbitAndSteelNewMap.csproj
+/.vscode/
+/.tools/
+/NuGet.config
+/Directory.Build.props
+*.sln
+*.csproj
+*.import
+*.pck
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.uid
+*.cs.uid

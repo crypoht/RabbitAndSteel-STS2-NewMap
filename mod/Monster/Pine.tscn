@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://bqny5gwjs5ee1"]
+[gd_scene load_steps=3 format=3 uid="uid://bgh6nppw5c68s"]
 
 [ext_resource type="Script" uid="uid://cjx3b7bsiw3my" path="res://Scripts/Nodes/MaxiCreatureVisuals.cs" id="1_xleye"]
 [ext_resource type="SpineSkeletonDataResource" uid="uid://cy86h16cv2k2p" path="res://mod/Spine/Kingdom/KingdomOutskirts/Pine&Ita/Pine/Pine.tres" id="2_dylsy"]
@@ -10,7 +10,7 @@ script = ExtResource("1_xleye")
 [node name="Visuals" type="SpineSprite" parent="."]
 skeleton_data_res = ExtResource("2_dylsy")
 preview_skin = "default"
-preview_animation = "idle_loop"
+preview_animation = "attack"
 preview_frame = false
 preview_time = 0.0
 unique_name_in_owner = true

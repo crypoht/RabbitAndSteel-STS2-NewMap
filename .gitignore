@@ -10,14 +10,23 @@
 /rabbit_and_steel_new_map.json
 /RabbitAndSteelNewMap.csproj
 /rabbit_and_steel_new_map.csproj
+/android/
+/.vscode/
+/.tools/
+/NuGet.config
+/Directory.Build.props
 *.sln
 *.import
 *.pck
 *.csproj
-*.import
 *.pck
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 *.uid
+.godot
+*.cs.uid
+
+# Temporary files created while Godot/editor DLLs are in use
+/bin/windows/~*

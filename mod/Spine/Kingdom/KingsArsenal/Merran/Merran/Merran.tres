@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://baopb2bh4hc6v"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://dh8jty1lxf33a" path="res://mod/Spine/Kingdom/KingsArsenal/Merran/Merran/merran.atlas" id="1_gcswp"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://cap7dtm1mmw4i" path="res://mod/Spine/Kingdom/KingsArsenal/Merran/Merran/merran.skel" id="2_fecto"]
+
+[resource]
+atlas_res = ExtResource("1_gcswp")
+skeleton_file_res = ExtResource("2_fecto")

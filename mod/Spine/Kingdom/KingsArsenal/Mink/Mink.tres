@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://dpap5cxqp7ug8"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://jremk4vq2ooa" path="res://mod/Spine/Kingdom/KingsArsenal/Mink/mink.atlas" id="1_juagy"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://cotw0q4o4scow" path="res://mod/Spine/Kingdom/KingsArsenal/Mink/mink.skel" id="2_hvno2"]
+
+[resource]
+atlas_res = ExtResource("1_juagy")
+skeleton_file_res = ExtResource("2_hvno2")

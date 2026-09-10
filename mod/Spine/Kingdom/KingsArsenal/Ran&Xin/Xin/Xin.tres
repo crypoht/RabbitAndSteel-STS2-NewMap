@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://dpso1nddu8p5b"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://uc0odooc2rme" path="res://mod/Spine/Kingdom/KingsArsenal/Ran&Xin/Xin/xin.atlas" id="1_m7psh"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://bl1ca6eo7levi" path="res://mod/Spine/Kingdom/KingsArsenal/Ran&Xin/Xin/xin.skel" id="2_ggax7"]
+
+[resource]
+atlas_res = ExtResource("1_m7psh")
+skeleton_file_res = ExtResource("2_ggax7")

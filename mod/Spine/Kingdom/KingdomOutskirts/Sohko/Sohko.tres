@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://b3nmndixxgbab"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://dsc0ybejulp07" path="res://mod/Spine/Kingdom/KingdomOutskirts/Sohko/sohko.atlas" id="1_yoqa8"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://pr56sbjf88pu" path="res://mod/Spine/Kingdom/KingdomOutskirts/Sohko/sohko.skel" id="2_gyawg"]
+
+[resource]
+atlas_res = ExtResource("1_yoqa8")
+skeleton_file_res = ExtResource("2_gyawg")

@@ -21,10 +21,9 @@ scale = Vector2(-0.35, 0.35)
 unique_name_in_owner = true
 layout_mode = 3
 anchors_preset = 0
-offset_left = -133.84616
-offset_top = -263.07693
-offset_right = 126.15384
-offset_bottom = -3.0769348
+offset_left = -130.0
+offset_top = -260.0
+offset_right = 130.0
 mouse_filter = 2
 
 [node name="IntentPos" type="Marker2D" parent="."]

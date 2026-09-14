@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dgall76ssui54"]
+
+[ext_resource type="Texture2D" uid="uid://bbtcgovktkm40" path="res://mod/Iamge/background/KingdomOutskirts/spr_outskirts_pillar_0.png" id="1_ajc2i"]
+
+[node name="KingdomOutskirts2c" type="Node2D"]
+
+[node name="SprOutskirtsPillar0" type="Sprite2D" parent="."]
+texture = ExtResource("1_ajc2i")

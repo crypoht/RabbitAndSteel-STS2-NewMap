@@ -1,0 +1,8 @@
+[gd_resource type="SpineSkeletonDataResource" load_steps=3 format=3 uid="uid://du6u513qhxppv"]
+
+[ext_resource type="SpineAtlasResource" uid="uid://bmr2dk3kv2a1p" path="res://mod/Spine/Kingdom/KingsArsenal/Tassha/tassha.atlas" id="1_wk5ak"]
+[ext_resource type="SpineSkeletonFileResource" uid="uid://c686ww3dxoio6" path="res://mod/Spine/Kingdom/KingsArsenal/Tassha/tassha.skel" id="2_84g1j"]
+
+[resource]
+atlas_res = ExtResource("1_wk5ak")
+skeleton_file_res = ExtResource("2_84g1j")

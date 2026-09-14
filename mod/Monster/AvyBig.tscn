@@ -1,4 +1,4 @@
-[gd_scene load_steps=3 format=3 uid="uid://byswx7i1gdyh1"]
+[gd_scene load_steps=3 format=3 uid="uid://0f1ukdsut4pi"]
 
 [ext_resource type="Script" uid="uid://cjx3b7bsiw3my" path="res://Scripts/Nodes/MaxiCreatureVisuals.cs" id="1_visuals"]
 [ext_resource type="SpineSkeletonDataResource" uid="uid://08s23eref1v" path="res://mod/Spine/Kingdom/EmeraldLakeside/Avy_big/Avy_big.tres" id="2_skeleton"]

@@ -14,6 +14,13 @@ config/name="rabbit_and_steel_new_map"
 config/features=PackedStringArray("4.5", "C#", "Mobile")
 config/icon="res://icon.svg"
 
+[display]
+
+window/size/viewport_width=1920
+window/size/viewport_height=1080
+window/stretch/mode="canvas_items"
+window/stretch/aspect="expand"
+
 [dotnet]
 
 project/assembly_name="rabbit_and_steel_new_map"

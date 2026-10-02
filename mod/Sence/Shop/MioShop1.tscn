@@ -1,0 +1,1072 @@
+[gd_scene load_steps=13 format=3 uid="uid://beo0sys1h66fs"]
+
+[ext_resource type="Texture2D" uid="uid://cq0xby0rjqw45" path="res://mod/Iamge/Shop/spr_store_background4_0.png" id="1_rv72x"]
+[ext_resource type="Texture2D" uid="uid://r5jbp54k7ysk" path="res://mod/Iamge/Shop/spr_store_background_0.png" id="1_store"]
+[ext_resource type="Texture2D" uid="uid://dx7km8ot5esxv" path="res://mod/Iamge/Shop/spr_store_background3_0.png" id="2_eehsk"]
+[ext_resource type="Texture2D" uid="uid://0yedhn20ovsg" path="res://mod/Iamge/Shop/spr_store_background2_0.png" id="2_store_left"]
+[ext_resource type="Texture2D" uid="uid://nigg4eyqgi14" path="res://mod/Iamge/Shop/spr_store_background2_1.png" id="3_store_right"]
+[ext_resource type="SpineSkeletonDataResource" uid="uid://bmujv81pflxmm" path="res://mod/Spine/shop/mio/Mio.tres" id="4_mio"]
+[ext_resource type="PackedScene" path="res://mod/Game/scenes/ui/proceed_button.tscn" id="5_proceed"]
+[ext_resource type="PackedScene" path="res://mod/Game/scenes/merchant/merchant_card_removal.tscn" id="6_card_removal"]
+[ext_resource type="PackedScene" path="res://mod/Game/scenes/merchant/merchant_potion.tscn" id="7_potion"]
+[ext_resource type="PackedScene" path="res://mod/Game/scenes/merchant/merchant_card.tscn" id="8_card"]
+[ext_resource type="PackedScene" path="res://mod/Game/scenes/merchant/merchant_relic.tscn" id="9_relic"]
+[ext_resource type="PackedScene" uid="uid://cjpaxmsmcm2us" path="res://mod/Sence/Shop/merchant_gem.tscn" id="11_eehsk"]
+
+[node name="MioShop1" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ShopViewport" type="Control" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -960.0
+offset_top = -540.0
+offset_right = 960.0
+offset_bottom = 540.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="SprStoreBackground40" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1843, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground41" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1918, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground42" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1768, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground43" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1693, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground44" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1618, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground45" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1543, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground46" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1468, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground47" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1393, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground48" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1318, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground49" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1243, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground50" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1168, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground51" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1096, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground52" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1021, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground53" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(946, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground54" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(871, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground55" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(796, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground56" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(721, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground57" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(646, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground58" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(571, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground59" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(496, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground60" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(421, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground61" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(346, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground62" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(271, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground63" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(196, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground64" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(121, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground65" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(46, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground66" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-29, 645)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground67" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1843, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground68" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1918, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground69" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1768, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground70" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1693, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground71" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1618, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground72" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1543, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground73" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1468, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground74" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1393, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground75" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1318, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground76" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1243, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground77" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1168, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground78" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1096, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground79" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1021, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground80" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(946, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground81" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(871, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground82" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(796, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground83" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(721, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground84" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(646, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground85" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(571, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground86" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(496, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground87" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(421, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground88" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(346, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground89" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(271, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground90" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(196, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground91" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(121, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground92" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(46, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground93" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-29, 720)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground94" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1843, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground95" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1918, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground96" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1768, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground97" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1693, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground98" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1618, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground99" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1543, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground100" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1468, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground101" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1393, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground102" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1318, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground103" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1243, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground104" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1168, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground105" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1096, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground106" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1021, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground107" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(946, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground108" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(871, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground109" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(796, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground110" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(721, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground111" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(646, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground112" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(571, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground113" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(496, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground114" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(421, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground115" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(346, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground116" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(271, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground117" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(196, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground118" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(121, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground119" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(46, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground120" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-29, 795)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground121" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1843, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground122" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1918, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground123" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1768, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground124" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1693, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground125" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1618, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground126" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1543, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground127" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1468, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground128" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1393, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground129" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1318, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground130" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1243, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground131" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1168, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground132" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1096, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground133" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1021, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground134" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(946, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground135" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(871, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground136" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(796, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground137" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(721, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground138" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(646, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground139" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(571, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground140" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(496, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground141" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(421, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground142" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(346, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground143" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(271, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground144" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(196, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground145" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(121, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground146" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(46, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground147" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-29, 870)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground148" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1843, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground149" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1918, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground150" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1768, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground151" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1693, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground152" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1618, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground153" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1543, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground154" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1468, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground155" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1393, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground156" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1318, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground157" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1243, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground158" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1168, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground159" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1096, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground160" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1021, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground161" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(946, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground162" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(871, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground163" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(796, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground164" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(721, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground165" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(646, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground166" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(571, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground167" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(496, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground168" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(421, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground169" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(346, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground170" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(271, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground171" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(196, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground172" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(121, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground173" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(46, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground174" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-29, 944)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground175" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1843, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground176" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1918, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground177" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1768, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground178" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1693, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground179" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1618, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground180" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1543, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground181" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1468, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground182" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1393, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground183" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1318, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground184" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1243, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground185" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1168, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground186" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1096, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground187" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1021, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground188" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(946, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground189" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(871, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground190" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(796, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground191" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(721, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground192" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(646, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground193" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(571, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground194" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(496, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground195" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(421, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground196" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(346, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground197" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(271, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground198" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(196, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground199" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(121, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground200" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(46, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground201" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-29, 1019)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground202" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1843, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground203" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1918, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground204" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1768, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground205" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1693, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground206" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1618, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground207" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1543, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground208" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1468, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground209" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1393, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground210" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1318, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground211" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1243, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground212" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1168, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground213" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1096, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground214" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1021, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground215" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(946, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground216" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(871, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground217" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(796, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground218" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(721, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground219" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(646, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground220" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(571, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground221" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(496, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground222" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(421, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground223" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(346, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground224" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(271, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground225" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(196, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground226" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(121, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground227" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(46, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground228" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-29, 1094)
+texture = ExtResource("1_rv72x")
+
+[node name="SprStoreBackground30" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-10, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground31" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(202, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground32" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(414, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground33" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(626, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground34" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(837, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground35" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1049, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground36" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1261, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground37" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1473, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground38" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1684, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground39" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1896, 589)
+texture = ExtResource("2_eehsk")
+
+[node name="SprStoreBackground229" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-10, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="SprStoreBackground230" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(202, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="SprStoreBackground231" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(414, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="SprStoreBackground232" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(626, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="SprStoreBackground233" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(837, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="SprStoreBackground234" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1049, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="SprStoreBackground235" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1261, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="SprStoreBackground236" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1473, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="SprStoreBackground237" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1684, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="SprStoreBackground238" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1896, 1107)
+texture = ExtResource("2_eehsk")
+flip_v = true
+
+[node name="StorePanelLeft" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(-70, 848)
+texture = ExtResource("2_store_left")
+
+[node name="StorePanelRight" type="Sprite2D" parent="ShopViewport"]
+position = Vector2(1951, 849)
+texture = ExtResource("3_store_right")
+
+[node name="MerchantVisual" type="SpineSprite" parent="ShopViewport"]
+skeleton_data_res = ExtResource("4_mio")
+preview_skin = "default"
+preview_animation = "idle_loop"
+preview_frame = false
+preview_time = 0.0
+unique_name_in_owner = true
+position = Vector2(277, 320)
+scale = Vector2(0.75, 0.75)
+
+[node name="ShopBackground" type="Control" parent="ShopViewport"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="StorePanel" type="Sprite2D" parent="ShopViewport/ShopBackground"]
+position = Vector2(1212, 312)
+texture = ExtResource("1_store")
+
+[node name="StorePanelLeft" type="Sprite2D" parent="ShopViewport/ShopBackground"]
+position = Vector2(562, 312)
+texture = ExtResource("2_store_left")
+
+[node name="StorePanelRight" type="Sprite2D" parent="ShopViewport/ShopBackground"]
+position = Vector2(1862, 312)
+texture = ExtResource("3_store_right")
+
+[node name="SlotsContainer" type="Control" parent="ShopViewport"]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="MerchantCardRemoval" parent="ShopViewport/SlotsContainer" instance=ExtResource("6_card_removal")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 700.0
+offset_top = 173.0
+offset_right = 1089.0
+offset_bottom = 530.0
+
+[node name="MerchantPotion" parent="ShopViewport/SlotsContainer" instance=ExtResource("7_potion")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1550.0
+offset_top = 200.0
+offset_right = 1672.0
+offset_bottom = 322.0
+
+[node name="MerchantPotion2" parent="ShopViewport/SlotsContainer" instance=ExtResource("7_potion")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1700.0
+offset_top = 200.0
+offset_right = 1822.0
+offset_bottom = 322.0
+
+[node name="MerchantRelic" parent="ShopViewport/SlotsContainer" instance=ExtResource("9_relic")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1100.0
+offset_top = 200.0
+offset_right = 1222.0
+offset_bottom = 322.0
+
+[node name="MerchantRelic2" parent="ShopViewport/SlotsContainer" instance=ExtResource("9_relic")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1250.0
+offset_top = 200.0
+offset_right = 1372.0
+offset_bottom = 321.99997
+
+[node name="MerchantRelic3" parent="ShopViewport/SlotsContainer" instance=ExtResource("9_relic")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1400.0
+offset_top = 200.0
+offset_right = 1522.0
+offset_bottom = 321.99997
+
+[node name="MerchantCard" parent="ShopViewport/SlotsContainer" instance=ExtResource("8_card")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 150.0
+offset_top = 882.0
+offset_right = 450.0
+offset_bottom = 1304.0
+
+[node name="MerchantCard2" parent="ShopViewport/SlotsContainer" instance=ExtResource("8_card")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 450.0
+offset_top = 882.0
+offset_right = 750.0
+offset_bottom = 1304.0
+
+[node name="MerchantCard3" parent="ShopViewport/SlotsContainer" instance=ExtResource("8_card")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 750.0
+offset_top = 882.0
+offset_right = 1050.0
+offset_bottom = 1304.0
+
+[node name="MerchantCard4" parent="ShopViewport/SlotsContainer" instance=ExtResource("8_card")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1050.0
+offset_top = 882.0
+offset_right = 1350.0
+offset_bottom = 1304.0
+
+[node name="MerchantCard5" parent="ShopViewport/SlotsContainer" instance=ExtResource("8_card")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1350.0
+offset_top = 882.0
+offset_right = 1650.0
+offset_bottom = 1304.0
+
+[node name="MerchantCard6" parent="ShopViewport/SlotsContainer" instance=ExtResource("8_card")]
+unique_name_in_owner = true
+layout_mode = 0
+offset_left = 1650.0
+offset_top = 882.0
+offset_right = 1950.0
+offset_bottom = 1304.0
+
+[node name="MerchantGem" parent="ShopViewport/SlotsContainer" instance=ExtResource("11_eehsk")]
+layout_mode = 0
+offset_left = 700.0
+offset_top = 451.0
+offset_right = 822.0
+offset_bottom = 573.0
+
+[node name="MerchantGem2" parent="ShopViewport/SlotsContainer" instance=ExtResource("11_eehsk")]
+layout_mode = 0
+offset_left = 900.0
+offset_top = 451.0
+offset_right = 1022.0
+offset_bottom = 573.0
+
+[node name="MerchantGem3" parent="ShopViewport/SlotsContainer" instance=ExtResource("11_eehsk")]
+layout_mode = 0
+offset_left = 1100.0
+offset_top = 451.0
+offset_right = 1222.0
+offset_bottom = 573.0
+
+[node name="MerchantGem4" parent="ShopViewport/SlotsContainer" instance=ExtResource("11_eehsk")]
+layout_mode = 0
+offset_left = 1300.0
+offset_top = 451.0
+offset_right = 1422.0
+offset_bottom = 573.0
+
+[node name="ProceedButtonLeft" parent="ShopViewport" instance=ExtResource("5_proceed")]
+unique_name_in_owner = true
+layout_mode = 1
+offset_left = -1885.0
+offset_top = -568.0
+offset_right = -1616.0
+offset_bottom = -460.0
+
+[node name="ProceedButton" parent="ShopViewport" instance=ExtResource("5_proceed")]
+unique_name_in_owner = true
+layout_mode = 1
+offset_left = -319.0
+offset_top = -565.0
+offset_right = -50.0
+offset_bottom = -457.0

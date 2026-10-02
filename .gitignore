@@ -2,22 +2,30 @@
 .godot/
 /android/
 
-# Local-only files and directories
+# Local-only technical notes
 /docs-local/
 /LOCAL_TECH_NOTES.md
+/rabbit-and-steel-new-map.csproj
+/rabbit-and-steel-new-map.json
+/rabbit_and_steel_new_map.json
+/RabbitAndSteelNewMap.csproj
+/rabbit_and_steel_new_map.csproj
+/android/
 /.vscode/
 /.tools/
 /NuGet.config
 /Directory.Build.props
 *.sln
-*.csproj
 *.import
+*.pck
+*.csproj
 *.pck
 *.user
 *.suo
 *.userosscache
 *.sln.docstates
 *.uid
+.godot
 *.cs.uid
 
 # Temporary files created while Godot/editor DLLs are in use

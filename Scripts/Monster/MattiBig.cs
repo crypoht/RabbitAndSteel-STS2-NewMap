@@ -114,15 +114,18 @@ public sealed class MattiBig : ModMonsterTemplate
             "FINALE_MOVE",
             FinaleMove,
             new SingleAttackIntent(FinaleDamage));
-        var empty = new MoveState("EMPTY_MOVE", EmptyMove);
-
         var afterGroup = new ConditionalBranchState("AFTER_GROUP_BRANCH");
         afterGroup.AddState(finale, () => _groupLoopCount >= 4);
         afterGroup.AddState(vigor, () => _groupLoopCount < 4);
 
+        // Keep the A-cycle entry explicit so returning from the finale can never
+        // accidentally continue at the summon step.
+        var cycleAEntry = new ConditionalBranchState("CYCLE_A_ENTRY");
+        cycleAEntry.AddState(impact, () => true);
+
         var afterFinale = new ConditionalBranchState("AFTER_FINALE_BRANCH");
-        afterFinale.AddState(empty, IsOnlyLivingEnemy);
-        afterFinale.AddState(impact, () => !IsOnlyLivingEnemy());
+        afterFinale.AddState(cycleAEntry, IsOnlyLivingEnemy);
+        afterFinale.AddState(finale, () => !IsOnlyLivingEnemy());
 
         impact.FollowUpState = suppression;
         suppression.FollowUpState = summon;
@@ -130,13 +133,12 @@ public sealed class MattiBig : ModMonsterTemplate
         vigor.FollowUpState = group;
         group.FollowUpState = afterGroup;
         finale.FollowUpState = afterFinale;
-        empty.FollowUpState = empty;
 
         return new MonsterMoveStateMachine(
             new List<MonsterState>
             {
-                impact, suppression, summon, vigor, group, finale, empty,
-                afterGroup, afterFinale
+                impact, suppression, summon, vigor, group, finale,
+                afterGroup, cycleAEntry, afterFinale
             },
             impact);
     }
@@ -233,7 +235,8 @@ public sealed class MattiBig : ModMonsterTemplate
         _groupLoopCount++;
     }
 
-    private async Task FinaleMove(IReadOnlyList<Creature> targets) =>
+    private async Task FinaleMove(IReadOnlyList<Creature> targets)
+    {
         await DamageCmd.Attack(FinaleDamage)
             .FromMonster(this)
             .WithAttackerAnim("Attack", 0.3f, null)
@@ -241,9 +244,10 @@ public sealed class MattiBig : ModMonsterTemplate
             .WithHitFx("vfx/vfx_attack_blunt", null, null)
             .Execute(null);
 
-    private async Task EmptyMove(IReadOnlyList<Creature> targets)
-    {
-        await MoveToOriginalPosition();
+        // The finale repeats until the minions are gone. Reset the B-cycle
+        // before returning to cycle A so the next loop starts at its first move.
+        if (IsOnlyLivingEnemy())
+            _groupLoopCount = 0;
     }
 
     private async Task MoveToHighPosition()

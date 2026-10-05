@@ -9,6 +9,9 @@ namespace RabbitAndSteelNewMap.Scripts.Encounter;
 
 public sealed class MattiBossEncounter : ModEncounterTemplate
 {
+    private const string BossNodeIconPath =
+        "res://mod/Iamge/Boss/spr_menu_campaign_icon_4.png";
+
     public override RoomType RoomType => RoomType.Boss;
     public override bool IsWeak => false;
 
@@ -18,11 +21,10 @@ public sealed class MattiBossEncounter : ModEncounterTemplate
     public override EncounterAssetProfile AssetProfile => new(
         MapNodeAssetPaths:
         [
-            "res://mod/Iamge/Boss/EmeraldLakeside.png",
-            "res://mod/Iamge/Boss/EmeraldLakeside_outline.png"
+            BossNodeIconPath
         ],
-        RunHistoryIconPath: "res://mod/Iamge/Boss/EmeraldLakeside.png",
-        RunHistoryIconOutlinePath: "res://mod/Iamge/Boss/EmeraldLakeside_outline.png");
+        RunHistoryIconPath: BossNodeIconPath,
+        RunHistoryIconOutlinePath: BossNodeIconPath);
 
     public override IEnumerable<MonsterModel> AllPossibleMonsters =>
         new[] { ModelDb.Monster<Matti>() };

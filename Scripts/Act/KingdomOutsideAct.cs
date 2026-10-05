@@ -6,6 +6,7 @@ using MegaCrit.Sts2.Core.Models.Acts;
 using MegaCrit.Sts2.Core.Random;
 using MegaCrit.Sts2.Core.Rooms;
 using MegaCrit.Sts2.Core.Unlocks;
+using RabbitAndSteelNewMap.Scripts.Encounter;
 using STS2RitsuLib.Scaffolding.Content;
 
 namespace RabbitAndSteelNewMap.Scripts.Act;
@@ -27,7 +28,13 @@ public sealed class KingdomOutsideAct : ModActTemplate
     public override Color MapUntraveledColor => new("877256");
     public override Color MapTraveledColor => new("28231D");
     public override string[] MusicBankPaths => VanillaContent.MusicBankPaths;
-    public override IEnumerable<EncounterModel> BossDiscoveryOrder => VanillaContent.BossDiscoveryOrder;
+    public override IEnumerable<EncounterModel> BossDiscoveryOrder =>
+        new EncounterModel[]
+        {
+            ModelDb.Encounter<AvyBoss>(),
+            ModelDb.Encounter<MattiBossEncounter>()
+            ,ModelDb.Encounter<MerranBossEncounter>()
+        };
     public override IEnumerable<AncientEventModel> AllAncients => VanillaContent.AllAncients;
     public override IEnumerable<EventModel> AllEvents => VanillaContent.AllEvents;
     public override string[] BgMusicOptions => VanillaContent.BgMusicOptions;
@@ -47,7 +54,10 @@ public sealed class KingdomOutsideAct : ModActTemplate
 
     public override IEnumerable<EncounterModel> GenerateAllEncounters()
     {
-        return VanillaContent.GenerateAllEncounters();
+        // RitsuLib appends encounters registered for this act to this result.
+        // Returning an empty base list keeps all vanilla Overgrowth encounters
+        // out of Kingdom Outside.
+        return System.Array.Empty<EncounterModel>();
     }
 
     public override IEnumerable<AncientEventModel> GetUnlockedAncients(UnlockState unlockState)

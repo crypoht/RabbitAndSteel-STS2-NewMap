@@ -48,5 +48,21 @@
   "MATTI_BOSS_ENCOUNTER.title": "“圣骑士鼠” 玛蒂",
   "MATTI_BOSS_ENCOUNTER.loss": "团结一心！",
   "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_MATTI_BOSS_ENCOUNTER.title": "“圣骑士鼠” 玛蒂",
-  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_MATTI_BOSS_ENCOUNTER.loss": "团结一心！"
+  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_MATTI_BOSS_ENCOUNTER.loss": "团结一心！",
+  "MINK_WEAK.title": "嗷呜！",
+  "MINK_WEAK.loss": "{character}并不喜欢狼叫。",
+  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_MINK_WEAK.title": "嗷呜！",
+  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_MINK_WEAK.loss": "{character}并不喜欢狼叫。",
+  "RAN_XIN_STRONG_ENCOUNTER.title": "交叉战术",
+  "RAN_XIN_STRONG_ENCOUNTER.loss": "{character}被打得毫无还手之力",
+  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_RAN_XIN_STRONG_ENCOUNTER.title": "交叉战术",
+  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_RAN_XIN_STRONG_ENCOUNTER.loss": "{character}被打得毫无还手之力",
+  "TASSHA_ELITE_ENCOUNTER.title": "雪毛狼",
+  "TASSHA_ELITE_ENCOUNTER.loss": "{character}没能逃过幻影的围猎。",
+  "MERRAN_BOSS_ENCOUNTER.title": "“钢牙狼” 弥兰",
+  "MERRAN_BOSS_ENCOUNTER.loss": "{character}被[gold]{encounter}[/gold]撕成了碎片。",
+  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_MERRAN_BOSS_ENCOUNTER.title": "“钢牙狼” 弥兰",
+  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_MERRAN_BOSS_ENCOUNTER.loss": "{character}被[gold]{encounter}[/gold]撕成了碎片。",
+  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_TASSHA_ELITE_ENCOUNTER.title": "雪毛狼",
+  "RABBIT_AND_STEEL_NEW_MAP_ENCOUNTER_TASSHA_ELITE_ENCOUNTER.loss": "{character}没能逃过幻影的围猎。"
 }

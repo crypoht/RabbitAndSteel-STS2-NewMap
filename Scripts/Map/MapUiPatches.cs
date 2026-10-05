@@ -9,5 +9,6 @@ public sealed class MapUiPatches : IModPatches
     {
         patcher.RegisterPatch<CustomMapNodeIconPatch>();
         patcher.RegisterPatch<AvyBossMapNodePathPatch>();
+        patcher.RegisterPatch<CustomTopBarBossIconPatch>();
     }
 }

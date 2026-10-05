@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://duaslj3adro5r"]
+
+[node name="Encounter" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="tassha_phantom_left_2" type="Marker2D" parent="."]
+position = Vector2(550, 693)
+
+[node name="tassha_phantom_left_1" type="Marker2D" parent="."]
+position = Vector2(240, 689)
+
+[node name="tassha_phantom_right_1" type="Marker2D" parent="."]
+position = Vector2(1521, 693)
+
+[node name="tassha" type="Marker2D" parent="."]
+position = Vector2(1831, 689)

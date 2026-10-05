@@ -1,10 +1,10 @@
-[gd_scene load_steps=13 format=3 uid="uid://beo0sys1h66fs"]
+[gd_scene load_steps=14 format=3 uid="uid://beo0sys1h66fs"]
 
-[ext_resource type="Texture2D" uid="uid://cq0xby0rjqw45" path="res://mod/Iamge/Shop/spr_store_background4_0.png" id="1_rv72x"]
-[ext_resource type="Texture2D" uid="uid://r5jbp54k7ysk" path="res://mod/Iamge/Shop/spr_store_background_0.png" id="1_store"]
-[ext_resource type="Texture2D" uid="uid://dx7km8ot5esxv" path="res://mod/Iamge/Shop/spr_store_background3_0.png" id="2_eehsk"]
-[ext_resource type="Texture2D" uid="uid://0yedhn20ovsg" path="res://mod/Iamge/Shop/spr_store_background2_0.png" id="2_store_left"]
-[ext_resource type="Texture2D" uid="uid://nigg4eyqgi14" path="res://mod/Iamge/Shop/spr_store_background2_1.png" id="3_store_right"]
+[ext_resource type="Texture2D" uid="uid://dsyevhs2hxbdt" path="res://mod/Iamge/Shop/spr_store_background4_0.png" id="1_rv72x"]
+[ext_resource type="Texture2D" uid="uid://b5a3ga8vhg8pq" path="res://mod/Iamge/Shop/spr_store_background_0.png" id="1_store"]
+[ext_resource type="Texture2D" uid="uid://dw6ykn3x5ldbp" path="res://mod/Iamge/Shop/spr_store_background3_0.png" id="2_eehsk"]
+[ext_resource type="Texture2D" uid="uid://cf7qnsjxil1pu" path="res://mod/Iamge/Shop/spr_store_background2_0.png" id="2_store_left"]
+[ext_resource type="Texture2D" uid="uid://bamhuv4wl2sl8" path="res://mod/Iamge/Shop/spr_store_background2_1.png" id="3_store_right"]
 [ext_resource type="SpineSkeletonDataResource" uid="uid://bmujv81pflxmm" path="res://mod/Spine/shop/mio/Mio.tres" id="4_mio"]
 [ext_resource type="PackedScene" path="res://mod/Game/scenes/ui/proceed_button.tscn" id="5_proceed"]
 [ext_resource type="PackedScene" path="res://mod/Game/scenes/merchant/merchant_card_removal.tscn" id="6_card_removal"]
@@ -12,6 +12,7 @@
 [ext_resource type="PackedScene" path="res://mod/Game/scenes/merchant/merchant_card.tscn" id="8_card"]
 [ext_resource type="PackedScene" path="res://mod/Game/scenes/merchant/merchant_relic.tscn" id="9_relic"]
 [ext_resource type="PackedScene" uid="uid://cjpaxmsmcm2us" path="res://mod/Sence/Shop/merchant_gem.tscn" id="11_eehsk"]
+[ext_resource type="Script" uid="uid://ce8fitep0r7u0" path="res://Scripts/Shop/CustomShopOverlay.cs" id="12_script"]
 
 [node name="MioShop1" type="Control"]
 layout_mode = 3
@@ -20,6 +21,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("12_script")
 
 [node name="ShopViewport" type="Control" parent="."]
 layout_mode = 1

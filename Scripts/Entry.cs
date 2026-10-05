@@ -8,6 +8,8 @@ using STS2RitsuLib.Interop.AutoRegistration;
 using STS2RitsuLib.Patching.Core;
 using RabbitAndSteelNewMap.Scripts.Act;
 using RabbitAndSteelNewMap.Scripts.Map;
+using RabbitAndSteelNewMap.Scripts.Shop;
+using RabbitAndSteelNewMap.Scripts.Enchantment;
 
 namespace RabbitAndSteelNewMap.Scripts;
 
@@ -26,12 +28,19 @@ public class Entry
         CustomMapNodeRegistry.Initialize();
         ApplyPatches();
         ContentRegistration.Register();
+        ShopGemSync.Register();
     }
 
     private static void ApplyPatches()
     {
         var patcher = RitsuLibFramework.CreatePatcher(ModId, "map-ui");
         patcher.RegisterPatches<MapUiPatches>();
+        patcher.RegisterPatch<CustomShopEnterPatch>();
+        patcher.RegisterPatch<CustomShopScreenContextPatch>();
+        patcher.RegisterPatch<ShopGemCostPatch>();
+        patcher.RegisterPatch<ShopGemKeywordPatch>();
+        patcher.RegisterPatch<ShopGemDescriptionPatch>();
+        patcher.RegisterPatch<Power.RequiredColorIconRefreshPatch>();
 
         if (!patcher.PatchAll())
             throw new InvalidOperationException("Failed to apply map UI patches.");

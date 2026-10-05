@@ -26,9 +26,9 @@ public sealed class Maxi : ModMonsterTemplate
 {
     public override LocString Title => MonsterModel.L10NMonsterLookup("MAXI.name");
 
-    public override int MinInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 28, 25);
+    public override int MinInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 40, 37);
 
-    public override int MaxInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 36, 33);
+    public override int MaxInitialHp => AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 42, 39);
 
     public override MonsterAssetProfile AssetProfile => new("res://mod/Monster/Maxi.tscn");
 

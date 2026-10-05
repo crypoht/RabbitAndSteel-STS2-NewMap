@@ -66,13 +66,13 @@ public sealed class MattiBig : ModMonsterTemplate
         AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, 18, 17);
 
     private int VigorAmount =>
-        AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 3, 2);
+        AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 1, 1);
 
     private int GroupBlock =>
         AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 10, 8);
 
     private const int FinaleDamage = 110;
-    private const int UnityAmount = 8;
+    private const int UnityAmount = 7;
 
     public override async Task AfterAddedToRoom()
     {

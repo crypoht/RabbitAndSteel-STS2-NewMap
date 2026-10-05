@@ -18,7 +18,10 @@ public sealed class UnderAct : ModActTemplate
     protected override int BaseNumberOfRooms => 14;
     public override int Index => 2;
     public override bool IsDefault => false;
-    public override ActAssetProfile AssetProfile => ContentAssetProfiles.FromVanillaActId("hive");
+    public override ActAssetProfile AssetProfile => ContentAssetProfiles.FromVanillaActId("hive") with
+    {
+        ChestSpineResourcePath = VanillaContent.ChestSpineResourcePath
+    };
     public override string ChestSpineSkinNameNormal => "act2";
     public override string ChestSpineSkinNameStroke => "act2_stroke";
     public override string ChestOpenSfx => VanillaContent.ChestOpenSfx;

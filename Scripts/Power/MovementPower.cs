@@ -16,6 +16,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public sealed class MovementPower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/MovementPower.png",
+        BigIconPath: "res://mod/Iamge/Powers/MovementPower.png");
+
     private const string DamageDecreaseKey = "DamageDecrease";
 
     public override PowerType Type => PowerType.Buff;

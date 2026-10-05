@@ -27,7 +27,7 @@ public sealed class CustomMapNodeIconPatch : IPatchMethod
                 return;
 
             var coord = __instance.Point.coord;
-            if (!CustomMapNodeRegistry.TryGetKind(runState.CurrentActIndex, coord, out var kind))
+            if (!CustomMapNodeRegistry.TryGetKind(runState, runState.CurrentActIndex, coord, out var kind))
                 return;
 
             if (!CustomMapNodeRegistry.TryGetIconPaths(kind, out var iconPath, out var outlinePath))
@@ -63,16 +63,23 @@ public sealed class AvyBossMapNodePathPatch : IPatchMethod
 {
     public static string PatchId => "rabbit_avy_boss_static_map_icon";
     public static bool IsCritical => false;
-    public static string Description => "Use Avy's static boss map icon";
+    public static string Description => "Use static boss map icons for Avy, Matti and Merran";
     public static ModPatchTarget[] GetTargets() =>
         [new(typeof(EncounterModel), "get_BossNodePath")];
 
     public static bool Prefix(EncounterModel __instance, ref string __result)
     {
-        if (__instance is not AvyBoss)
+        var path = __instance switch
+        {
+            AvyBoss => AvyBoss.BossNodeBasePath,
+            MattiBossEncounter => MattiBossEncounter.BossNodeBasePath,
+            MerranBossEncounter => MerranBossEncounter.BossNodeBasePath,
+            _ => null,
+        };
+        if (path == null)
             return true;
 
-        __result = AvyBoss.BossNodeBasePath;
+        __result = path;
         return false;
     }
 }

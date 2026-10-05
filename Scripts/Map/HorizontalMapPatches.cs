@@ -38,6 +38,15 @@ internal static class MapPatchReflection
     {
         return type.GetMethod(methodName, InstanceNonPublic);
     }
+
+    public static T GetProperty<T>(object instance, string propertyName)
+    {
+        var property = instance.GetType().GetProperty(
+            propertyName,
+            BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)
+            ?? throw new MissingMemberException(instance.GetType().FullName, propertyName);
+        return (T)property.GetValue(instance)!;
+    }
 }
 
 public sealed class HorizontalMapLayoutPatch : IPatchMethod

@@ -15,6 +15,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public sealed class PullAwayPower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/PullAwayPower.png",
+        BigIconPath: "res://mod/Iamge/Powers/PullAwayPower.png");
+
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Counter;
 

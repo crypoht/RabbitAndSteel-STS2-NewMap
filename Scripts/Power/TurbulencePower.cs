@@ -15,6 +15,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public sealed class TurbulencePower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/TurbulencePower.png",
+        BigIconPath: "res://mod/Iamge/Powers/TurbulencePower.png");
+
     public override PowerType Type => PowerType.Debuff;
 
     public override PowerStackType StackType => PowerStackType.Counter;

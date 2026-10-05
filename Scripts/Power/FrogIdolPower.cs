@@ -11,6 +11,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public sealed class FrogIdolPower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/FrogIdolPower.png",
+        BigIconPath: "res://mod/Iamge/Powers/FrogIdolPower.png");
+
     public override PowerType Type => PowerType.Buff;
 
     public override PowerStackType StackType => PowerStackType.Single;

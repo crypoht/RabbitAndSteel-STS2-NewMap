@@ -18,6 +18,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public sealed class ConstrainedPower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/ConstrainedPower.png",
+        BigIconPath: "res://mod/Iamge/Powers/ConstrainedPower.png");
+
     public override PowerType Type => PowerType.Debuff;
     public override PowerStackType StackType => PowerStackType.Counter;
 

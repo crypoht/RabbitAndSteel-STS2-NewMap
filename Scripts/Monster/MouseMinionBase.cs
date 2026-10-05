@@ -32,10 +32,10 @@ public abstract class MouseMinionBase : ModMonsterTemplate
     public override LocString Title => MonsterModel.L10NMonsterLookup($"{MonsterKey}.name");
 
     public override int MinInitialHp =>
-        AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 15, 13);
+        AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 9, 7);
 
     public override int MaxInitialHp =>
-        AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 17, 15);
+        AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 12, 10);
 
     public override MonsterAssetProfile AssetProfile => new(VisualScenePath);
 
@@ -97,11 +97,9 @@ public abstract class MouseMinionBase : ModMonsterTemplate
             random);
     }
 
-    private int AttackDamage =>
-        AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, 5, 4);
+    private const int AttackDamage = 2;
 
-    private int GuardAmount =>
-        AscensionHelper.GetValueIfAscension(AscensionLevel.ToughEnemies, 3, 2);
+    private const int GuardAmount = 1;
 
     private async Task AttackMove(IReadOnlyList<Creature> targets) =>
         await DamageCmd.Attack(AttackDamage)

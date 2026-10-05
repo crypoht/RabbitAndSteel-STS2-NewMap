@@ -18,6 +18,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public sealed class PaintingPower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/PaintingPower.png",
+        BigIconPath: "res://mod/Iamge/Powers/PaintingPower.png");
+
     public override PowerType Type => PowerType.Debuff;
 
     public override PowerStackType StackType => PowerStackType.Counter;

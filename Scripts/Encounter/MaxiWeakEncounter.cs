@@ -21,7 +21,7 @@ public sealed class MaxiWeak : ModEncounterTemplate
         _ = parentAct;
         _ = rng;
         return CombatBackgroundAssetsFactory.Create(
-            "res://mod/Sence/KingdomOutskirts.tscn",
+            "res://mod/Sence/Fight/KingdomOutskirts.tscn",
             Array.Empty<string>());
     }
 

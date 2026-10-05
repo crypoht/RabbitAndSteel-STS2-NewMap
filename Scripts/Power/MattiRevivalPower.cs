@@ -10,6 +10,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public sealed class MattiRevivalPower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/AvyRevivalPower.png",
+        BigIconPath: "res://mod/Iamge/Powers/AvyRevivalPower.png");
+
     public override PowerType Type => PowerType.Buff;
     public override PowerStackType StackType => PowerStackType.Single;
 

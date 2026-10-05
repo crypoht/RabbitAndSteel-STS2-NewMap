@@ -16,6 +16,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public sealed class CallPower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/CallPower.png",
+        BigIconPath: "res://mod/Iamge/Powers/CallPower.png");
+
     public override PowerType Type => PowerType.Debuff;
 
     public override PowerStackType StackType => PowerStackType.Single;

@@ -56,9 +56,9 @@ public sealed class Nimi : ModMonsterTemplate
     private int VolleyDamage => 3;
 
     private int VolleyHits =>
-        AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, 5, 4);
+        AscensionHelper.GetValueIfAscension(AscensionLevel.DeadlyEnemies, 4, 3);
 
-    private int HeavyDamage => 20;
+    private int HeavyDamage => 14;
 
     protected override MonsterMoveStateMachine GenerateMoveStateMachine()
     {

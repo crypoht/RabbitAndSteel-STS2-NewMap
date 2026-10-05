@@ -22,6 +22,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public abstract class ColorMechanicPower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/Color.png",
+        BigIconPath: "res://mod/Iamge/Powers/Color.png");
+
     protected Creature ColorOwner =>
         Owner ?? throw new InvalidOperationException("Color mechanic power has no owner.");
 
@@ -349,6 +353,19 @@ public sealed class BlushColorPower : ColorMechanicPower
 
 public sealed class RequiredColorPower : ModPowerTemplate
 {
+    private string ColorIconPath => $"res://mod/Iamge/Powers/{(IsCanonical ? "Color" : (ColorMarkType)Amount switch
+    {
+        ColorMarkType.Red => "Red",
+        ColorMarkType.Blue => "Blue",
+        ColorMarkType.Yellow => "Yellow",
+        ColorMarkType.Purple => "Purple",
+        ColorMarkType.Green => "Green",
+        _ => "Color"
+    })}.png";
+
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: ColorIconPath, BigIconPath: ColorIconPath);
+
     public override PowerType Type => PowerType.Buff;
 
     public override PowerStackType StackType => PowerStackType.Counter;

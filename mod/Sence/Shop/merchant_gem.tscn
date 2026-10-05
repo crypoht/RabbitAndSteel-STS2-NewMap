@@ -1,9 +1,11 @@
-[gd_scene load_steps=3 format=3 uid="uid://cjpaxmsmcm2us"]
+[gd_scene load_steps=4 format=3 uid="uid://cjpaxmsmcm2us"]
 
 [ext_resource type="Texture2D" path="res://mod/Game/images/atlases/ui_atlas.sprites/top_bar/top_bar_gold.tres" id="3_8hxua"]
 [ext_resource type="FontVariation" path="res://mod/Game/themes/kreon_bold_glyph_space_two.tres" id="4_2b8ru"]
+[ext_resource type="Script" path="res://Scripts/Shop/CustomMerchantGem.cs" id="5_script"]
 
 [node name="MerchantGem" type="Control"]
+script = ExtResource("5_script")
 custom_minimum_size = Vector2(122, 112)
 layout_mode = 3
 anchors_preset = 0
@@ -13,36 +15,39 @@ scale = Vector2(0.65, 0.65)
 size_flags_horizontal = 3
 size_flags_vertical = 3
 focus_mode = 2
-mouse_filter = 2
+mouse_filter = 0
 
 [node name="GemHolder" type="Control" parent="."]
 unique_name_in_owner = true
 anchors_preset = 0
-offset_left = -115.385
-offset_top = -169.231
-offset_right = -5.385002
-offset_bottom = -59.231003
-scale = Vector2(1.5, 1.5)
+offset_left = -20.0
+offset_top = -140.0
+offset_right = 320.0
+offset_bottom = 282.0
+scale = Vector2(1, 1)
 pivot_offset = Vector2(20, 20)
 focus_mode = 2
+mouse_filter = 2
 
 [node name="Hitbox" type="Control" parent="."]
 unique_name_in_owner = true
 anchors_preset = 0
-offset_left = -115.38461
-offset_top = -169.23077
-offset_right = 104.61539
-offset_bottom = 50.769226
+offset_left = -20.0
+offset_top = -140.0
+offset_right = 320.0
+offset_bottom = 282.0
 pivot_offset = Vector2(56, 56)
+mouse_filter = 0
 
 [node name="Cost" type="HBoxContainer" parent="."]
 layout_mode = 0
-offset_left = -147.692
-offset_top = 47.6923
-offset_right = 149.308
-offset_bottom = 101.692
+offset_left = -42.0
+offset_top = 128.0
+offset_right = 164.0
+offset_bottom = 182.0
 theme_override_constants/separation = 6
 alignment = 1
+mouse_filter = 2
 
 [node name="GoldIcon" type="TextureRect" parent="Cost"]
 custom_minimum_size = Vector2(54, 54)

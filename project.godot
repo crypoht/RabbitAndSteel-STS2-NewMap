@@ -23,7 +23,7 @@ window/stretch/aspect="expand"
 
 [dotnet]
 
-project/assembly_name="rabbit_and_steel_new_map"
+project/assembly_name="rabbit-and-steel-new-map"
 
 [editor]
 

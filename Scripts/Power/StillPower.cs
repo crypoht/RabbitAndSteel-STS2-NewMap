@@ -16,6 +16,10 @@ namespace RabbitAndSteelNewMap.Scripts.Power;
 
 public sealed class StillPower : ModPowerTemplate
 {
+    public override PowerAssetProfile AssetProfile => new(
+        IconPath: "res://mod/Iamge/Powers/StillPower.png",
+        BigIconPath: "res://mod/Iamge/Powers/StillPower.png");
+
     private const string DamageDecreaseKey = "DamageDecrease";
 
     public override PowerType Type => PowerType.Buff;

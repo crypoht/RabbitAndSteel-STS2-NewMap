@@ -6,6 +6,7 @@ using RabbitAndSteelNewMap.Scripts.Encounter;
 using RabbitAndSteelNewMap.Scripts.Affliction;
 using RabbitAndSteelNewMap.Scripts.Monster;
 using RabbitAndSteelNewMap.Scripts.Power;
+using RabbitAndSteelNewMap.Scripts.Enchantment;
 
 namespace RabbitAndSteelNewMap.Scripts.Act;
 
@@ -14,6 +15,26 @@ public static class ContentRegistration
     public static void Register()
     {
         RitsuLibFramework.CreateContentPack(Entry.ModId)
+            .Enchantment<BlueAttackGem>()
+            .Enchantment<GreenAttackGem>()
+            .Enchantment<RedAttackGem>()
+            .Enchantment<PurpleAttackGem>()
+            .Enchantment<YellowAttackGem>()
+            .Enchantment<BlueSkillGem>()
+            .Enchantment<GreenSkillGem>()
+            .Enchantment<RedSkillGem>()
+            .Enchantment<PurpleSkillGem>()
+            .Enchantment<YellowSkillGem>()
+            .Enchantment<BluePowerGem>()
+            .Enchantment<GreenPowerGem>()
+            .Enchantment<RedPowerGem>()
+            .Enchantment<PurplePowerGem>()
+            .Enchantment<YellowPowerGem>()
+            .Enchantment<BlueBasicGem>()
+            .Enchantment<GreenBasicGem>()
+            .Enchantment<RedBasicGem>()
+            .Enchantment<PurpleBasicGem>()
+            .Enchantment<YellowBasicGem>()
             .Act<KingdomOutsideAct>()
             .Act<KingdomInsideAct>()
             .Act<UnderAct>()

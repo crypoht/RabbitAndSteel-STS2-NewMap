@@ -19,7 +19,10 @@ public sealed class KingdomOutsideAct : ModActTemplate
     protected override int BaseNumberOfRooms => 15;
     public override int Index => 0;
     public override bool IsDefault => false;
-    public override ActAssetProfile AssetProfile => ContentAssetProfiles.FromVanillaActId("overgrowth");
+    public override ActAssetProfile AssetProfile => ContentAssetProfiles.FromVanillaActId("overgrowth") with
+    {
+        ChestSpineResourcePath = VanillaContent.ChestSpineResourcePath
+    };
     public override string ChestSpineSkinNameNormal => "act1";
     public override string ChestSpineSkinNameStroke => "act1_stroke";
     public override string ChestOpenSfx => VanillaContent.ChestOpenSfx;
